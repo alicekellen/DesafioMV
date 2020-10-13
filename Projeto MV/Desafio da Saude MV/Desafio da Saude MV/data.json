@@ -1,1453 +1,1446 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 \{\
-"cnes":[\
-    \{\
-        "co_cnes": "6577687",\
-        "co_ibge": "292240",\
-        "no_fantasia": "SECRETARIA DE SAUDE DE MUTUIPE",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA RUY BARBOSA",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "45480000",\
-        "uf": "BA",\
-        "municipio": "Mutu\'edpe",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578500",\
-        "co_ibge": "500210",\
-        "no_fantasia": "REABILIT CONSULTORIO DE FISIOTERAPIA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "ALMIRANTE BARROSO",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "79260000",\
-        "uf": "MS",\
-        "municipio": "Bela Vista",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6577725",\
-        "co_ibge": "355660",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE E HIGIENE DE VERA CRUZ",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA PAULO GUERREIRO FRANCO",\
-        "nu_endereco": "997",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "17560000",\
-        "uf": "SP",\
-        "municipio": "Vera Cruz",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6577733",\
-        "co_ibge": "355410",\
-        "no_fantasia": "CONS SERGIO LUIZ TEIXEIRA M PERES",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "PCA MONS SILVA BARROS",\
-        "nu_endereco": "254",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "12020070",\
-        "uf": "SP",\
-        "municipio": "Taubat\'e9",\
-        "nu_telefone": "36351489"\
-    \},\
-    \{\
-        "co_cnes": "6577768",\
-        "co_ibge": "410490",\
-        "no_fantasia": "LABORATORIO DOFF SOTTA",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA DR JORGE XAVIER DA SILVA",\
-        "nu_endereco": "1078",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "84165000",\
-        "uf": "PR",\
-        "municipio": "Castro",\
-        "nu_telefone": "3232-4854"\
-    \},\
-    \{\
-        "co_cnes": "6577806",\
-        "co_ibge": "420245",\
-        "no_fantasia": "SAMU BOMBINHAS",\
-        "ds_tipo_unidade": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA CACHALOTE",\
-        "nu_endereco": "589",\
-        "no_bairro": "MORRINHOS",\
-        "co_cep": "88215000",\
-        "uf": "SC",\
-        "municipio": "Bombinhas",\
-        "nu_telefone": "33934363"\
-    \},\
-    \{\
-        "co_cnes": "6577830",\
-        "co_ibge": "240260",\
-        "no_fantasia": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS II",\
-        "ds_tipo_unidade": "CENTRO DE ATENCAO PSICOSSOCIAL",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA POETISA DOLORES",\
-        "nu_endereco": "13",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "59570000",\
-        "uf": "RN",\
-        "municipio": "Cear\'e1-Mirim",\
-        "nu_telefone": "(84)3274-5914"\
-    \},\
-    \{\
-        "co_cnes": "6577865",\
-        "co_ibge": "315960",\
-        "no_fantasia": "DIMENSAO CLINICA MEDICA",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA CEL GABRIEL CAPISTRANO",\
-        "nu_endereco": "256",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "37540000",\
-        "uf": "MG",\
-        "municipio": "Santa Rita do Sapuca\'ed",\
-        "nu_telefone": "3534713531"\
-    \},\
-    \{\
-        "co_cnes": "6577873",\
-        "co_ibge": "355670",\
-        "no_fantasia": "JULIANA PEREIRA PERSI",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA ROCINHA",\
-        "nu_endereco": "213",\
-        "no_bairro": "CAPELA",\
-        "co_cep": "13280000",\
-        "uf": "SP",\
-        "municipio": "Vinhedo",\
-        "nu_telefone": "38764932"\
-    \},\
-    \{\
-        "co_cnes": "6577881",\
-        "co_ibge": "231330",\
-        "no_fantasia": "CENTRAL DE CONSULTORIOS",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA MAFISA CIDRAO ROCHA",\
-        "nu_endereco": "63",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "63660000",\
-        "uf": "CE",\
-        "municipio": "Tau\'e1",\
-        "nu_telefone": "88-34371097"\
-    \},\
-    \{\
-        "co_cnes": "6577903",\
-        "co_ibge": "411605",\
-        "no_fantasia": "SMS DE MISSAL",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA NOSSA SENHORA DA LUZ",\
-        "nu_endereco": "357",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "85890000",\
-        "uf": "PR",\
-        "municipio": "Missal",\
-        "nu_telefone": "45 3244 2282"\
-    \},\
-    \{\
-        "co_cnes": "6577938",\
-        "co_ibge": "292520",\
-        "no_fantasia": "CEO CENTRO DE ESPECIALIDADES ODONTOLOGICA DE POJUCA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA CONSELHEIRO CHAVES",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "48120000",\
-        "uf": "BA",\
-        "municipio": "Pojuca",\
-        "nu_telefone": "7136451013"\
-    \},\
-    \{\
-        "co_cnes": "6577946",\
-        "co_ibge": "330520",\
-        "no_fantasia": "CLINICA SANTA MARIA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RODOVIA RJ 140 KM 03",\
-        "nu_endereco": "110",\
-        "no_bairro": "FLUMINENSE",\
-        "co_cep": "28941030",\
-        "uf": "RJ",\
-        "municipio": "S\'e3o Pedro da Aldeia",\
-        "nu_telefone": "(22) 26212126"\
-    \},\
-    \{\
-        "co_cnes": "6577997",\
-        "co_ibge": "260140",\
-        "no_fantasia": "SECRETARIA DE SAUDE DOS BARREIROS",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA DOM LUIZ",\
-        "nu_endereco": "380",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "55560000",\
-        "uf": "PE",\
-        "municipio": "Barreiros",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578004",\
-        "co_ibge": "250160",\
-        "no_fantasia": "UNIDADE BASICA DE SAUDE ASSENTAMENTO RIACHO DA CRUZ ESF IV",\
-        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "ASSENTAMENTO RIACHO DA CRUZ",\
-        "nu_endereco": "0000000000",\
-        "no_bairro": "ZONA RURAL",\
-        "co_cep": "58170000",\
-        "uf": "PB",\
-        "municipio": "Barra de Santa Rosa",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578039",\
-        "co_ibge": "351620",\
-        "no_fantasia": "A E CLINICA ESTETICA LTDA ME",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV MAJOR NICACIO",\
-        "nu_endereco": "1415",\
-        "no_bairro": "CIDADE NOVA",\
-        "co_cep": "14401135",\
-        "uf": "SP",\
-        "municipio": "Franca",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578071",\
-        "co_ibge": "261485",\
-        "no_fantasia": "SECRETARIA DE SAUDE DE TAMANDARE",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA DR LEOPOLDO LINS",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "55578000",\
-        "uf": "PE",\
-        "municipio": "Tamandar\'e9",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "7567650",\
-        "co_ibge": "530010",\
-        "no_fantasia": "VCP ODONTOLOGIA",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "E",\
-        "no_logradouro": "SGA SUL QUADRA 915 CONJUNTO N SALA",\
-        "nu_endereco": "311",\
-        "no_bairro": "ASA SUL",\
-        "co_cep": "70390150",\
-        "uf": "DF",\
-        "municipio": "Bras\'edlia",\
-        "nu_telefone": "(61)32451535"\
-    \},\
-    \{\
-        "co_cnes": "6578101",\
-        "co_ibge": "261190",\
-        "no_fantasia": "SECRETARIA DE SAUDE DO RIO FORMOSO",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "PRACA 7 DE FEVEREIRO",\
-        "nu_endereco": "01",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "55570000",\
-        "uf": "PE",\
-        "municipio": "Rio Formoso",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578128",\
-        "co_ibge": "261420",\
-        "no_fantasia": "SECRETARIA DE SAUDE DE SIRINHAEM",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA SEBASTIAO CHAVES",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "55580000",\
-        "uf": "PE",\
-        "municipio": "Sirinha\'e9m",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578551",\
-        "co_ibge": "230640",\
-        "no_fantasia": "ABDIAS ARAUJO COSTA",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA EUBIA BARROSO",\
-        "nu_endereco": "2555",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "62500000",\
-        "uf": "CE",\
-        "municipio": "Itapipoca",\
-        "nu_telefone": "8836312109"\
-    \},\
-    \{\
-        "co_cnes": "6578136",\
-        "co_ibge": "261340",\
-        "no_fantasia": "SECRETARIA DE SAUDE DE SAO JOSE DA COROA GRANDE",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA JOAO FRANCISNO DE MELO",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "55565000",\
-        "uf": "PE",\
-        "municipio": "S\'e3o Jos\'e9 da Coroa Grande",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578144",\
-        "co_ibge": "240420",\
-        "no_fantasia": "UNILAB LABORATORIO DE ANALISES CLINICA LTDA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "R CEL MANOEL DUARTE",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "59173000",\
-        "uf": "RN",\
-        "municipio": "Goianinha",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578160",\
-        "co_ibge": "110020",\
-        "no_fantasia": "FISIOVIDA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "E",\
-        "no_logradouro": "AVENIDA JOSE VIEIRA CAULA",\
-        "nu_endereco": "4411",\
-        "no_bairro": "FLODOALDO PONTES PIN",\
-        "co_cep": "76820391",\
-        "uf": "RO",\
-        "municipio": "Porto Velho",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578179",\
-        "co_ibge": "260040",\
-        "no_fantasia": "SECRETARIA DE SAUDE DE AGUA PRETA",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "PRACA DOS TRES PODERES",\
-        "nu_endereco": "10",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "55550000",\
-        "uf": "PE",\
-        "municipio": "\'c1gua Preta",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578195",\
-        "co_ibge": "320530",\
-        "no_fantasia": "VITORIA OTORRINOS",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "E",\
-        "no_logradouro": "RUA ALEIXO NETO",\
-        "nu_endereco": "1266",\
-        "no_bairro": "PRAIA DO CANTO",\
-        "co_cep": "29056190",\
-        "uf": "ES",\
-        "municipio": "Vit\'f3ria",\
-        "nu_telefone": "27 - 30262101"\
-    \},\
-    \{\
-        "co_cnes": "6578217",\
-        "co_ibge": "353870",\
-        "no_fantasia": "IMEDI MEDICINA E DIAGNOSTICO POR IMAGEM PIRACICABA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA INDEPENDENCIA",\
-        "nu_endereco": "350",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "13419160",\
-        "uf": "SP",\
-        "municipio": "Piracicaba",\
-        "nu_telefone": "19 3433-7100"\
-    \},\
-    \{\
-        "co_cnes": "6578233",\
-        "co_ibge": "140023",\
-        "no_fantasia": "DEPARTAMENTO DE VIGILANCIA SANITARIA DE CAROEBE",\
-        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA AMAZONAS",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "69378000",\
-        "uf": "RR",\
-        "municipio": "Caroebe",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578241",\
-        "co_ibge": "500540",\
-        "no_fantasia": "ACADEMIA DO ALEMAO",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA AGUINALDO FERREIRA BARBOSA",\
-        "nu_endereco": "791",\
-        "no_bairro": "CONJ SAN RAPHAEL",\
-        "co_cep": "79150000",\
-        "uf": "MS",\
-        "municipio": "Maracaju",\
-        "nu_telefone": "67 3454 1456"\
-    \},\
-    \{\
-        "co_cnes": "6578284",\
-        "co_ibge": "231100",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE PORANGA",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV DR EPITACIO PINHO",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "VILA NOVA",\
-        "co_cep": "62220000",\
-        "uf": "CE",\
-        "municipio": "Poranga",\
-        "nu_telefone": "(88)36581616"\
-    \},\
-    \{\
-        "co_cnes": "6578292",\
-        "co_ibge": "411095",\
-        "no_fantasia": "SMS DE ITAIPULANDIA",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA XV DE NOVEMBRO",\
-        "nu_endereco": "2950",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "85880000",\
-        "uf": "PR",\
-        "municipio": "Itaipul\'e2ndia",\
-        "nu_telefone": "(45) 3559-1715"\
-    \},\
-    \{\
-        "co_cnes": "6578306",\
-        "co_ibge": "311830",\
-        "no_fantasia": "FUNDACAO OLHOS DALMA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA DIACONO EDMO VIEIRA",\
-        "nu_endereco": "110",\
-        "no_bairro": "EXPEDICIONARIOS",\
-        "co_cep": "36407228",\
-        "uf": "MG",\
-        "municipio": "Conselheiro Lafaiete",\
-        "nu_telefone": "3761 7707"\
-    \},\
-    \{\
-        "co_cnes": "6578314",\
-        "co_ibge": "351280",\
-        "no_fantasia": "CEMETRA",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA FRANCISCO DE MARIO",\
-        "nu_endereco": "778",\
-        "no_bairro": "BELA VISTA III",\
-        "co_cep": "13150000",\
-        "uf": "SP",\
-        "municipio": "Cosm\'f3polis",\
-        "nu_telefone": "19 3872 1936"\
-    \},\
-    \{\
-        "co_cnes": "6578373",\
-        "co_ibge": "150520",\
-        "no_fantasia": "HOSPITAL DE PEQUENO PORTE",\
-        "ds_tipo_unidade": "HOSPITAL GERAL",\
-        "tp_gestao": "D",\
-        "no_logradouro": "TRAVESSA HONORIO BASTOS",\
-        "nu_endereco": "1008",\
-        "no_bairro": "SANTA MARIA",\
-        "co_cep": "68470000",\
-        "uf": "PA",\
-        "municipio": "Oeiras do Par\'e1",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578381",\
-        "co_ibge": "330090",\
-        "no_fantasia": "CENTRO FISIO",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JOSE GALDINO",\
-        "nu_endereco": "129",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "28430000",\
-        "uf": "RJ",\
-        "municipio": "Cambuci",\
-        "nu_telefone": "22 27672593"\
-    \},\
-    \{\
-        "co_cnes": "6578411",\
-        "co_ibge": "250535",\
-        "no_fantasia": "UNIDADE DE VIGILANCIA EM SAUDE DE DAMIAO",\
-        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA MANOEL HONORATO DA COSTA",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "58173000",\
-        "uf": "PB",\
-        "municipio": "Dami\'e3o",\
-        "nu_telefone": "8336351062"\
-    \},\
-    \{\
-        "co_cnes": "6578446",\
-        "co_ibge": "211130",\
-        "no_fantasia": "LAYSE ALMEIDA MOREIRA LIMA ME",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV COLARES MOREIRA ED LOS ANGELES",\
-        "nu_endereco": "100",\
-        "no_bairro": "RENASCENCA II",\
-        "co_cep": "65075441",\
-        "uf": "MA",\
-        "municipio": "S\'e3o Lu\'eds",\
-        "nu_telefone": "(098) 3083-1312"\
-    \},\
-    \{\
-        "co_cnes": "6578489",\
-        "co_ibge": "316470",\
-        "no_fantasia": "VIGILANCIA EM SAUDE",\
-        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "R GERALDO MARCOLINE",\
-        "nu_endereco": "1236",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "37950000",\
-        "uf": "MG",\
-        "municipio": "S\'e3o Sebasti\'e3o do Para\'edso",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578578",\
-        "co_ibge": "355030",\
-        "no_fantasia": "AME AMBULATORIO MEDICO DE ESP DE PSIQUIATRIA V MARIA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "E",\
-        "no_logradouro": "AVENIDA GUILHERME COTHING",\
-        "nu_endereco": "1600",\
-        "no_bairro": "VILA MARIA",\
-        "co_cep": "02113012",\
-        "uf": "SP",\
-        "municipio": "S\'e3o Paulo",\
-        "nu_telefone": "11 34781377"\
-    \},\
-    \{\
-        "co_cnes": "6578586",\
-        "co_ibge": "521760",\
-        "no_fantasia": "SAMU PLANALTINA DE GOIAS",\
-        "ds_tipo_unidade": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "QD 1",\
-        "nu_endereco": "08",\
-        "no_bairro": "LESTE",\
-        "co_cep": "73752010",\
-        "uf": "GO",\
-        "municipio": "Planaltina",\
-        "nu_telefone": "61-36371344"\
-    \},\
-    \{\
-        "co_cnes": "6578594",\
-        "co_ibge": "522185",\
-        "no_fantasia": "UNIDADE DE SAUDE DA FAMILIA ARARUAMA",\
-        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "QUADRA 06 LOTE 13 14",\
-        "nu_endereco": "13",\
-        "no_bairro": "ARARUAMA",\
-        "co_cep": "72874020",\
-        "uf": "GO",\
-        "municipio": "Valpara\'edso de Goi\'e1s",\
-        "nu_telefone": "61 - 3627 1351"\
-    \},\
-    \{\
-        "co_cnes": "6578608",\
-        "co_ibge": "351640",\
-        "no_fantasia": "VIGILANCIA EM SAUDE DE FRANCO DA ROCHA",\
-        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",\
-        "tp_gestao": "E",\
-        "no_logradouro": "AVENIDA DOS COQUEIROS",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "07850320",\
-        "uf": "SP",\
-        "municipio": "Franco da Rocha",\
-        "nu_telefone": "11-4444 5175"\
-    \},\
-    \{\
-        "co_cnes": "6578632",\
-        "co_ibge": "355030",\
-        "no_fantasia": "FARMACIA MEDEX CENTRO DE REFERENCIA DA SAUDE DA MULHER",\
-        "ds_tipo_unidade": "FARMACIA",\
-        "tp_gestao": "E",\
-        "no_logradouro": "AV BRIGADEIRO LUIZ ANTONIO",\
-        "nu_endereco": "683",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "01317000",\
-        "uf": "SP",\
-        "municipio": "S\'e3o Paulo",\
-        "nu_telefone": "11- 3248-8000"\
-    \},\
-    \{\
-        "co_cnes": "6578640",\
-        "co_ibge": "355030",\
-        "no_fantasia": "FARMACIA MEDEX DR GERALDO BOURROUL",\
-        "ds_tipo_unidade": "FARMACIA",\
-        "tp_gestao": "E",\
-        "no_logradouro": "RUA MARTINS FONTES",\
-        "nu_endereco": "208",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "01050000",\
-        "uf": "SP",\
-        "municipio": "S\'e3o Paulo",\
-        "nu_telefone": "11- 2141 6212"\
-    \},\
-    \{\
-        "co_cnes": "6578659",\
-        "co_ibge": "521760",\
-        "no_fantasia": "LABORATORIO DE PROTESE DENTARIO",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "QD 1 MR 09",\
-        "nu_endereco": "1",\
-        "no_bairro": "SETOR LESTE",\
-        "co_cep": "73752020",\
-        "uf": "GO",\
-        "municipio": "Planaltina",\
-        "nu_telefone": "61-36371344"\
-    \},\
-    \{\
-        "co_cnes": "6578675",\
-        "co_ibge": "510370",\
-        "no_fantasia": "LABORATORIO PRO SAUDE",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA SAO JOSE DO CEDRO",\
-        "nu_endereco": "915",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "78885000",\
-        "uf": "MT",\
-        "municipio": "Feliz Natal",\
-        "nu_telefone": "6635851776"\
-    \},\
-    \{\
-        "co_cnes": "6578705",\
-        "co_ibge": "250750",\
-        "no_fantasia": "CONSULTORIO ODONTOLOGICO MARIA CRISTINA T DE M HONORATO",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV EPITACIO PESSOA",\
-        "nu_endereco": "753",\
-        "no_bairro": "BAIRRO DOS ESTADOS",\
-        "co_cep": "58030904",\
-        "uf": "PB",\
-        "municipio": "Jo\'e3o Pessoa",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578713",\
-        "co_ibge": "310210",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE ALTO RIO DOCE",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "PRACA ERNESTINA MOREIRA COUTO",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "36260000",\
-        "uf": "MG",\
-        "municipio": "Alto Rio Doce",\
-        "nu_telefone": "32-33451433"\
-    \},\
-    \{\
-        "co_cnes": "6578748",\
-        "co_ibge": "230240",\
-        "no_fantasia": "CLINODONTUS",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA PADRE MORORO",\
-        "nu_endereco": "322",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "63870000",\
-        "uf": "CE",\
-        "municipio": "Boa Viagem",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578772",\
-        "co_ibge": "150215",\
-        "no_fantasia": "LABORATORIO CIRIO DE NAZARE",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA JK",\
-        "nu_endereco": "123",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "68537000",\
-        "uf": "PA",\
-        "municipio": "Cana\'e3 dos Caraj\'e1s",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578799",\
-        "co_ibge": "316470",\
-        "no_fantasia": "FARMACIA BASICA MUNICIPAL",\
-        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "R DOS ANTUNE",\
-        "nu_endereco": "733",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "37950000",\
-        "uf": "MG",\
-        "municipio": "S\'e3o Sebasti\'e3o do Para\'edso",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6578802",\
-        "co_ibge": "420540",\
-        "no_fantasia": "LIV ESPACO SAUDE",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA TANGARA",\
-        "nu_endereco": "41",\
-        "no_bairro": "AGRONOMICA",\
-        "co_cep": "88025460",\
-        "uf": "SC",\
-        "municipio": "Florian\'f3polis",\
-        "nu_telefone": "(48) 30313400"\
-    \},\
-    \{\
-        "co_cnes": "6578837",\
-        "co_ibge": "420540",\
-        "no_fantasia": "CONSULTORIO ODONTOLOGICO DANIELA CAPELLA",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JOAO PIO DUARTE SILVA",\
-        "nu_endereco": "492",\
-        "no_bairro": "CORREGO GRANDE",\
-        "co_cep": "88037000",\
-        "uf": "SC",\
-        "municipio": "Florian\'f3polis",\
-        "nu_telefone": "(48) 32332677"\
-    \},\
-    \{\
-        "co_cnes": "6578896",\
-        "co_ibge": "355250",\
-        "no_fantasia": "SUZAN BELA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV ARMANDO SALLES DE OLIVEIRA",\
-        "nu_endereco": "633",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "08673000",\
-        "uf": "SP",\
-        "municipio": "Suzano",\
-        "nu_telefone": "11 47487462"\
-    \},\
-    \{\
-        "co_cnes": "6578918",\
-        "co_ibge": "350720",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE BORA",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JOAO MERCI",\
-        "nu_endereco": "150",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "19740000",\
-        "uf": "SP",\
-        "municipio": "Bor\'e1",\
-        "nu_telefone": "18 33671114"\
-    \},\
-    \{\
-        "co_cnes": "6579019",\
-        "co_ibge": "330115",\
-        "no_fantasia": "CENTRO MEDICO DE CARDOSO MOREIRA",\
-        "ds_tipo_unidade": "POLICLINICA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JOEL REIS",\
-        "nu_endereco": "190",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "28180000",\
-        "uf": "RJ",\
-        "municipio": "Cardoso Moreira",\
-        "nu_telefone": "27851298"\
-    \},\
-    \{\
-        "co_cnes": "6579051",\
-        "co_ibge": "411390",\
-        "no_fantasia": "LABORATORIO BIOLAB",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "E",\
-        "no_logradouro": "RUA SANTOS DUMONT",\
-        "nu_endereco": "601",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "84570000",\
-        "uf": "PR",\
-        "municipio": "Mallet",\
-        "nu_telefone": "42 3542 2102"\
-    \},\
-    \{\
-        "co_cnes": "6579132",\
-        "co_ibge": "530010",\
-        "no_fantasia": "ASFUB",\
-        "ds_tipo_unidade": "POLICLINICA",\
-        "tp_gestao": "E",\
-        "no_logradouro": "CAMPUS UNIVERSITARIO DARCY RIBEIRO GLEBA A",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "ASA NORTE",\
-        "co_cep": "70910900",\
-        "uf": "DF",\
-        "municipio": "Bras\'edlia",\
-        "nu_telefone": "3307 1024"\
-    \},\
-    \{\
-        "co_cnes": "6579140",\
-        "co_ibge": "510794",\
-        "no_fantasia": "FARMACIA CENTRAL",\
-        "ds_tipo_unidade": "FARMACIA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA VILAS BOAS",\
-        "nu_endereco": "206",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "78563000",\
-        "uf": "MT",\
-        "municipio": "Tabapor\'e3",\
-        "nu_telefone": "06635571223"\
-    \},\
-    \{\
-        "co_cnes": "6579159",\
-        "co_ibge": "220230",\
-        "no_fantasia": "SECRETARIA MUN DE SAUDE DE CANTO DO BURITI",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "PRACA SANTANA",\
-        "nu_endereco": "336",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "64890000",\
-        "uf": "PI",\
-        "municipio": "Canto do Buriti",\
-        "nu_telefone": "35311499"\
-    \},\
-    \{\
-        "co_cnes": "6579183",\
-        "co_ibge": "240560",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA 15 DE NOVEMBRO",\
-        "nu_endereco": "136",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "59324000",\
-        "uf": "RN",\
-        "municipio": "Jardim de Piranhas",\
-        "nu_telefone": "84-3423-2506"\
-    \},\
-    \{\
-        "co_cnes": "6579191",\
-        "co_ibge": "230440",\
-        "no_fantasia": "ELIANE ALENCAR GOMES",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV DES MOREIRA",\
-        "nu_endereco": "2808",\
-        "no_bairro": "DIONISIO TORRES",\
-        "co_cep": "60170002",\
-        "uf": "CE",\
-        "municipio": "Fortaleza",\
-        "nu_telefone": "32279600"\
-    \},\
-    \{\
-        "co_cnes": "6579248",\
-        "co_ibge": "240200",\
-        "no_fantasia": "LEANDRO MORAIS GIFFONE OVIDIO",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA RENATO DANTAS",\
-        "nu_endereco": "379",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "59300000",\
-        "uf": "RN",\
-        "municipio": "Caic\'f3",\
-        "nu_telefone": "8434212602"\
-    \},\
-    \{\
-        "co_cnes": "6579302",\
-        "co_ibge": "171660",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE PEIXE",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV JOAO VISCONDE DE QUEIROZ",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "77460000",\
-        "uf": "TO",\
-        "municipio": "Peixe",\
-        "nu_telefone": "33561632"\
-    \},\
-    \{\
-        "co_cnes": "6579396",\
-        "co_ibge": "352940",\
-        "no_fantasia": "IMEDI INSTITUTO DE MEDICINA DIAGNOSTICA",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA GENERAL OSORIO",\
-        "nu_endereco": "228",\
-        "no_bairro": "VILA BOCAINA",\
-        "co_cep": "09310050",\
-        "uf": "SP",\
-        "municipio": "Mau\'e1",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6579418",\
-        "co_ibge": "352940",\
-        "no_fantasia": "BIOFAST LABORATORIO MUNICIPAL DE MAUA",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA REGENTE FEIJO",\
-        "nu_endereco": "166",\
-        "no_bairro": "VILA GUARANI",\
-        "co_cep": "09310640",\
-        "uf": "SP",\
-        "municipio": "Mau\'e1",\
-        "nu_telefone": "1145476919"\
-    \},\
-    \{\
-        "co_cnes": "6579566",\
-        "co_ibge": "412635",\
-        "no_fantasia": "SMS DE SERRANOPOLIS DO IGUACU",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA PARANA",\
-        "nu_endereco": "620",\
-        "no_bairro": "FLOR DA SERRA",\
-        "co_cep": "85885000",\
-        "uf": "PR",\
-        "municipio": "Serran\'f3polis do Igua\'e7u",\
-        "nu_telefone": "4532361122"\
-    \},\
-    \{\
-        "co_cnes": "6579582",\
-        "co_ibge": "354890",\
-        "no_fantasia": "CAMILA MARRARA BENJAMIN",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JOSE BONIFACIO",\
-        "nu_endereco": "1803",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "13560610",\
-        "uf": "SP",\
-        "municipio": "S\'e3o Carlos",\
-        "nu_telefone": "16-3371-8521"\
-    \},\
-    \{\
-        "co_cnes": "6579639",\
-        "co_ibge": "352980",\
-        "no_fantasia": "DEPARTAMENTO MUNICIPAL DE SAUDE DE MINEIROS DO TIETE",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA AMALIA SANTESSO RAMPAZZO",\
-        "nu_endereco": "110",\
-        "no_bairro": "JARDIM EUROPA",\
-        "co_cep": "17320000",\
-        "uf": "SP",\
-        "municipio": "Mineiros do Tiet\'ea",\
-        "nu_telefone": "14-36463800"\
-    \},\
-    \{\
-        "co_cnes": "6706584",\
-        "co_ibge": "410690",\
-        "no_fantasia": "EXLINE CLINICA INTEGRADA",\
-        "ds_tipo_unidade": "POLICLINICA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA PADRE ANCHIETA",\
-        "nu_endereco": "1846",\
-        "no_bairro": "BIGORRILHO",\
-        "co_cep": "80730000",\
-        "uf": "PR",\
-        "municipio": "Curitiba",\
-        "nu_telefone": "41-30187843"\
-    \},\
-    \{\
-        "co_cnes": "6579744",\
-        "co_ibge": "291840",\
-        "no_fantasia": "INSTITUTO VIVER DR ROBERTO",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA PAULO AFONSO",\
-        "nu_endereco": "437",\
-        "no_bairro": "ALTO DA MARAVILHA",\
-        "co_cep": "48904580",\
-        "uf": "BA",\
-        "municipio": "Juazeiro",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6579752",\
-        "co_ibge": "320050",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE APIACA",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JERONIMO MONTEIRO",\
-        "nu_endereco": "44",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "29450000",\
-        "uf": "ES",\
-        "municipio": "Apiac\'e1",\
-        "nu_telefone": "28 - 35571393"\
-    \},\
-    \{\
-        "co_cnes": "6579760",\
-        "co_ibge": "320520",\
-        "no_fantasia": "FLAVIA MARIA GOMES LITTIG",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA CHAMPAGNAT",\
-        "nu_endereco": "583",\
-        "no_bairro": "PRAIA DA COSTA",\
-        "co_cep": "29101390",\
-        "uf": "ES",\
-        "municipio": "Vila Velha",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6579779",\
-        "co_ibge": "510790",\
-        "no_fantasia": "CENTRO DE REFERENCIA EM HANSENIASE E TUBERCULOSE DE SINOP",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA DOS EUCALIPTOS",\
-        "nu_endereco": "208",\
-        "no_bairro": "SETOR COMERCIAL",\
-        "co_cep": "78550180",\
-        "uf": "MT",\
-        "municipio": "Sinop",\
-        "nu_telefone": "66 9618 0820"\
-    \},\
-    \{\
-        "co_cnes": "6579787",\
-        "co_ibge": "320520",\
-        "no_fantasia": "MARTHA ALAYDE ALCANTARA SALIM",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA CHAMPAGNAT",\
-        "nu_endereco": "583",\
-        "no_bairro": "SALA 209",\
-        "co_cep": "29100010",\
-        "uf": "ES",\
-        "municipio": "Vila Velha",\
-        "nu_telefone": "2733293170"\
-    \},\
-    \{\
-        "co_cnes": "6579795",\
-        "co_ibge": "320520",\
-        "no_fantasia": "PARMAGNANI ODONTOLOGIA LTDA ME",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA DOUTOR OLIVIO LIRA",\
-        "nu_endereco": "353",\
-        "no_bairro": "PRAIA DA COSTA",\
-        "co_cep": "29101950",\
-        "uf": "ES",\
-        "municipio": "Vila Velha",\
-        "nu_telefone": "2732393160"\
-    \},\
-    \{\
-        "co_cnes": "6579817",\
-        "co_ibge": "320520",\
-        "no_fantasia": "THAIS BARRETO DA ROCHA FRANCA SILVA",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA SANTA LEOPOLDINA",\
-        "nu_endereco": "1825",\
-        "no_bairro": "COQUEIRAL DE ITAPARI",\
-        "co_cep": "29102040",\
-        "uf": "ES",\
-        "municipio": "Vila Velha",\
-        "nu_telefone": "2733391999"\
-    \},\
-    \{\
-        "co_cnes": "6579825",\
-        "co_ibge": "320520",\
-        "no_fantasia": "VALERIA BONIKOVSKI",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA TENENTE SETUBAL",\
-        "nu_endereco": "93",\
-        "no_bairro": "ITAPOA",\
-        "co_cep": "29101570",\
-        "uf": "ES",\
-        "municipio": "Vila Velha",\
-        "nu_telefone": "2733490339"\
-    \},\
-    \{\
-        "co_cnes": "6579833",\
-        "co_ibge": "510790",\
-        "no_fantasia": "LABORATORIO MUNICIPAL ANALISES CLINICAS DE SINOP",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA DAS PITOMBEIRAS",\
-        "nu_endereco": "1270",\
-        "no_bairro": "JD JACARANDAS",\
-        "co_cep": "78557670",\
-        "uf": "MT",\
-        "municipio": "Sinop",\
-        "nu_telefone": "66 3511 1998"\
-    \},\
-    \{\
-        "co_cnes": "6579876",\
-        "co_ibge": "510790",\
-        "no_fantasia": "LMPD LABORATORIO MUNICIPAL DE PROTESES DENTARIAS DE SINOP",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA DAS CASTANHEIRAS",\
-        "nu_endereco": "1118",\
-        "no_bairro": "SETOR COMERCIAL",\
-        "co_cep": "78550290",\
-        "uf": "MT",\
-        "municipio": "Sinop",\
-        "nu_telefone": "66-35315672"\
-    \},\
-    \{\
-        "co_cnes": "6579892",\
-        "co_ibge": "431580",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DA SAUDE DE ROCA SALES",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA NAPOLEAO MAIOLI",\
-        "nu_endereco": "154",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "95735000",\
-        "uf": "RS",\
-        "municipio": "Roca Sales",\
-        "nu_telefone": "37532577 37531688"\
-    \},\
-    \{\
-        "co_cnes": "6579914",\
-        "co_ibge": "432145",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE TEUTONIA",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV 01 OESTE",\
-        "nu_endereco": "878",\
-        "no_bairro": "CENTRO ADMINISTRATIV",\
-        "co_cep": "95890000",\
-        "uf": "RS",\
-        "municipio": "Teut\'f4nia",\
-        "nu_telefone": "37627767"\
-    \},\
-    \{\
-        "co_cnes": "6579922",\
-        "co_ibge": "270430",\
-        "no_fantasia": "ORAL CENTER",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA SANTA CRUZ",\
-        "nu_endereco": "340",\
-        "no_bairro": "FAROL",\
-        "co_cep": "57051590",\
-        "uf": "AL",\
-        "municipio": "Macei\'f3",\
-        "nu_telefone": "(082)3221-8080"\
-    \},\
-    \{\
-        "co_cnes": "6579957",\
-        "co_ibge": "210530",\
-        "no_fantasia": "CLINCENTER",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV DORGIVAL PINHEIRO DE SOUSA",\
-        "nu_endereco": "1193",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "65903270",\
-        "uf": "MA",\
-        "municipio": "Imperatriz",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6579965",\
-        "co_ibge": "330100",\
-        "no_fantasia": "PROGRAMA HIPERDIA",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA VOLUNTARIOS DA PATRIA",\
-        "nu_endereco": "875",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "28035260",\
-        "uf": "RJ",\
-        "municipio": "Campos dos Goytacazes",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6579973",\
-        "co_ibge": "330045",\
-        "no_fantasia": "APAE BELFORD ROXO",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA CASTRO VIEIRA",\
-        "nu_endereco": "137",\
-        "no_bairro": "AREIA BRANCA",\
-        "co_cep": "26116280",\
-        "uf": "RJ",\
-        "municipio": "Belford Roxo",\
-        "nu_telefone": "21-2662-1564"\
-    \},\
-    \{\
-        "co_cnes": "6580009",\
-        "co_ibge": "311310",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA SANTA TEREZINHA",\
-        "nu_endereco": "200",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "36428000",\
-        "uf": "MG",\
-        "municipio": "Carana\'edba",\
-        "nu_telefone": "(31)3725-1150"\
-    \},\
-    \{\
-        "co_cnes": "6581811",\
-        "co_ibge": "230100",\
-        "no_fantasia": "ABVCF ASSOCIACAO",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "ESTRADA DA TELHA",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CAMARA",\
-        "co_cep": "61700000",\
-        "uf": "CE",\
-        "municipio": "Aquiraz",\
-        "nu_telefone": "32524090"\
-    \},\
-    \{\
-        "co_cnes": "6580025",\
-        "co_ibge": "270430",\
-        "no_fantasia": "FISIOCLIN",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA DR JOSE AFONSO DE MELO",\
-        "nu_endereco": "68",\
-        "no_bairro": "MANGABEIRAS",\
-        "co_cep": "57035510",\
-        "uf": "AL",\
-        "municipio": "Macei\'f3",\
-        "nu_telefone": "(082) 2126 -0885"\
-    \},\
-    \{\
-        "co_cnes": "6580033",\
-        "co_ibge": "230260",\
-        "no_fantasia": "PRONTOLAB",\
-        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA 24 DE MAIO",\
-        "nu_endereco": "1680",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "62400000",\
-        "uf": "CE",\
-        "municipio": "Camocim",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6580130",\
-        "co_ibge": "230630",\
-        "no_fantasia": "INSTITUTO DE OFTALMOLOGIA DE ITAPAJE",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA ANTONIO BRAGA",\
-        "nu_endereco": "220",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "62600000",\
-        "uf": "CE",\
-        "municipio": "Itapag\'e9",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6580254",\
-        "co_ibge": "310280",\
-        "no_fantasia": "UNIDADE SAUDE DA FAMILIA DR EDSON REZENDE MEIRELES",\
-        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JOSE DE ANDRADE GODINHO",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "ROSARIO",\
-        "co_cep": "37300000",\
-        "uf": "MG",\
-        "municipio": "Andrel\'e2ndia",\
-        "nu_telefone": "3533251765"\
-    \},\
-    \{\
-        "co_cnes": "6580262",\
-        "co_ibge": "320150",\
-        "no_fantasia": "SUPERINTENDENCIA REGIONAL DE SAUDE DE COLATINA",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA AROLDO ANTOLINI",\
-        "nu_endereco": "0",\
-        "no_bairro": "VILA NOVA",\
-        "co_cep": "29702080",\
-        "uf": "ES",\
-        "municipio": "Colatina",\
-        "nu_telefone": "27 3177 7921"\
-    \},\
-    \{\
-        "co_cnes": "6580289",\
-        "co_ibge": "315120",\
-        "no_fantasia": "CADIP",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JOSE EUDES DE LORENA",\
-        "nu_endereco": "67",\
-        "no_bairro": "NOVA PIRAPORA",\
-        "co_cep": "39270000",\
-        "uf": "MG",\
-        "municipio": "Pirapora",\
-        "nu_telefone": "3837413862"\
-    \},\
-    \{\
-        "co_cnes": "6580300",\
-        "co_ibge": "354110",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE PRESIDENTE ALVES",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA RUI BARBOSA",\
-        "nu_endereco": "45",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "16670000",\
-        "uf": "SP",\
-        "municipio": "Presidente Alves",\
-        "nu_telefone": "14 35871459"\
-    \},\
-    \{\
-        "co_cnes": "6580319",\
-        "co_ibge": "354340",\
-        "no_fantasia": "ANDRE LUIS NASCIMENTO PEREIRA",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA MILTON JOSE ROBUSTI",\
-        "nu_endereco": "75",\
-        "no_bairro": "JD BOTANICO",\
-        "co_cep": "14021613",\
-        "uf": "SP",\
-        "municipio": "Ribeir\'e3o Preto",\
-        "nu_telefone": "(16)39312298"\
-    \},\
-    \{\
-        "co_cnes": "6580327",\
-        "co_ibge": "314465",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE NINHEIRA",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AV DOMINGOS JOSE DE MATOS",\
-        "nu_endereco": "167",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "39553000",\
-        "uf": "MG",\
-        "municipio": "Ninheira",\
-        "nu_telefone": "3838328337"\
-    \},\
-    \{\
-        "co_cnes": "6580335",\
-        "co_ibge": "431010",\
-        "no_fantasia": "UNIDADE DE SAUDE BOM PASTOR",\
-        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",\
-        "tp_gestao": "M",\
-        "no_logradouro": "BALDUINO GEIS",\
-        "nu_endereco": "25",\
-        "no_bairro": "BOM PASTOR",\
-        "co_cep": "95650000",\
-        "uf": "RS",\
-        "municipio": "Igrejinha",\
-        "nu_telefone": "(51)35458340"\
-    \},\
-    \{\
-        "co_cnes": "6580378",\
-        "co_ibge": "351370",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DESCALVADO",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA JOSE QUIRINO RIBEIRO",\
-        "nu_endereco": "55",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "13690000",\
-        "uf": "SP",\
-        "municipio": "Descalvado",\
-        "nu_telefone": "19-35839341"\
-    \},\
-    \{\
-        "co_cnes": "6580475",\
-        "co_ibge": "431245",\
-        "no_fantasia": "FISIO GUTERRES",\
-        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",\
-        "tp_gestao": "E",\
-        "no_logradouro": "AVENIDA JACARANDA",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "96150000",\
-        "uf": "RS",\
-        "municipio": "Morro Redondo",\
-        "nu_telefone": "5332240076"\
-    \},\
-    \{\
-        "co_cnes": "6580483",\
-        "co_ibge": "291110",\
-        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE FORMOSA DO RIO PRETO",\
-        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "AVENIDA DA MATRIZ",\
-        "nu_endereco": "S/N",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "47990000",\
-        "uf": "BA",\
-        "municipio": "Formosa do Rio Preto",\
-        "nu_telefone": "77-3616-2217"\
-    \},\
-    \{\
-        "co_cnes": "6580505",\
-        "co_ibge": "251420",\
-        "no_fantasia": "VIGILANCIA SANITARIA",\
-        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA CAPITAO MANOEL ROCHA",\
-        "nu_endereco": "01",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "58815000",\
-        "uf": "PB",\
-        "municipio": "S\'e3o Jos\'e9 da Lagoa Tapada",\
-        "nu_telefone": "0"\
-    \},\
-    \{\
-        "co_cnes": "6580548",\
-        "co_ibge": "352920",\
-        "no_fantasia": "CLINICA MEDICA E ODONTOLOGICA",\
-        "ds_tipo_unidade": "CONSULTORIO ISOLADO",\
-        "tp_gestao": "M",\
-        "no_logradouro": "RUA CAROLINA DE FREITAS MARTINS",\
-        "nu_endereco": "15",\
-        "no_bairro": "CENTRO",\
-        "co_cep": "19500000",\
-        "uf": "SP",\
-        "municipio": "Martin\'f3polis",\
-        "nu_telefone": "18-3275-1082"\
-    \}\
-]\
-\}}
+{
+"cnes":[
+    {
+        "co_cnes": "6577687",
+        "co_ibge": "292240",
+        "no_fantasia": "SECRETARIA DE SAUDE DE MUTUIPE",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA RUY BARBOSA",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "45480000",
+        "uf": "BA",
+        "municipio": "Mutuípe",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578500",
+        "co_ibge": "500210",
+        "no_fantasia": "REABILIT CONSULTORIO DE FISIOTERAPIA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "ALMIRANTE BARROSO",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "79260000",
+        "uf": "MS",
+        "municipio": "Bela Vista",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6577725",
+        "co_ibge": "355660",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE E HIGIENE DE VERA CRUZ",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA PAULO GUERREIRO FRANCO",
+        "nu_endereco": "997",
+        "no_bairro": "CENTRO",
+        "co_cep": "17560000",
+        "uf": "SP",
+        "municipio": "Vera Cruz",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6577733",
+        "co_ibge": "355410",
+        "no_fantasia": "CONS SERGIO LUIZ TEIXEIRA M PERES",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "PCA MONS SILVA BARROS",
+        "nu_endereco": "254",
+        "no_bairro": "CENTRO",
+        "co_cep": "12020070",
+        "uf": "SP",
+        "municipio": "Taubaté",
+        "nu_telefone": "36351489"
+    },
+    {
+        "co_cnes": "6577768",
+        "co_ibge": "410490",
+        "no_fantasia": "LABORATORIO DOFF SOTTA",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA DR JORGE XAVIER DA SILVA",
+        "nu_endereco": "1078",
+        "no_bairro": "CENTRO",
+        "co_cep": "84165000",
+        "uf": "PR",
+        "municipio": "Castro",
+        "nu_telefone": "3232-4854"
+    },
+    {
+        "co_cnes": "6577806",
+        "co_ibge": "420245",
+        "no_fantasia": "SAMU BOMBINHAS",
+        "ds_tipo_unidade": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA CACHALOTE",
+        "nu_endereco": "589",
+        "no_bairro": "MORRINHOS",
+        "co_cep": "88215000",
+        "uf": "SC",
+        "municipio": "Bombinhas",
+        "nu_telefone": "33934363"
+    },
+    {
+        "co_cnes": "6577830",
+        "co_ibge": "240260",
+        "no_fantasia": "CENTRO DE ATENCAO PSICOSSOCIAL CAPS II",
+        "ds_tipo_unidade": "CENTRO DE ATENCAO PSICOSSOCIAL",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA POETISA DOLORES",
+        "nu_endereco": "13",
+        "no_bairro": "CENTRO",
+        "co_cep": "59570000",
+        "uf": "RN",
+        "municipio": "Ceará-Mirim",
+        "nu_telefone": "(84)3274-5914"
+    },
+    {
+        "co_cnes": "6577865",
+        "co_ibge": "315960",
+        "no_fantasia": "DIMENSAO CLINICA MEDICA",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA CEL GABRIEL CAPISTRANO",
+        "nu_endereco": "256",
+        "no_bairro": "CENTRO",
+        "co_cep": "37540000",
+        "uf": "MG",
+        "municipio": "Santa Rita do Sapucaí",
+        "nu_telefone": "3534713531"
+    },
+    {
+        "co_cnes": "6577873",
+        "co_ibge": "355670",
+        "no_fantasia": "JULIANA PEREIRA PERSI",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA ROCINHA",
+        "nu_endereco": "213",
+        "no_bairro": "CAPELA",
+        "co_cep": "13280000",
+        "uf": "SP",
+        "municipio": "Vinhedo",
+        "nu_telefone": "38764932"
+    },
+    {
+        "co_cnes": "6577881",
+        "co_ibge": "231330",
+        "no_fantasia": "CENTRAL DE CONSULTORIOS",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA MAFISA CIDRAO ROCHA",
+        "nu_endereco": "63",
+        "no_bairro": "CENTRO",
+        "co_cep": "63660000",
+        "uf": "CE",
+        "municipio": "Tauá",
+        "nu_telefone": "88-34371097"
+    },
+    {
+        "co_cnes": "6577903",
+        "co_ibge": "411605",
+        "no_fantasia": "SMS DE MISSAL",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA NOSSA SENHORA DA LUZ",
+        "nu_endereco": "357",
+        "no_bairro": "CENTRO",
+        "co_cep": "85890000",
+        "uf": "PR",
+        "municipio": "Missal",
+        "nu_telefone": "45 3244 2282"
+    },
+    {
+        "co_cnes": "6577938",
+        "co_ibge": "292520",
+        "no_fantasia": "CEO CENTRO DE ESPECIALIDADES ODONTOLOGICA DE POJUCA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA CONSELHEIRO CHAVES",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "48120000",
+        "uf": "BA",
+        "municipio": "Pojuca",
+        "nu_telefone": "7136451013"
+    },
+    {
+        "co_cnes": "6577946",
+        "co_ibge": "330520",
+        "no_fantasia": "CLINICA SANTA MARIA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RODOVIA RJ 140 KM 03",
+        "nu_endereco": "110",
+        "no_bairro": "FLUMINENSE",
+        "co_cep": "28941030",
+        "uf": "RJ",
+        "municipio": "São Pedro da Aldeia",
+        "nu_telefone": "(22) 26212126"
+    },
+    {
+        "co_cnes": "6577997",
+        "co_ibge": "260140",
+        "no_fantasia": "SECRETARIA DE SAUDE DOS BARREIROS",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA DOM LUIZ",
+        "nu_endereco": "380",
+        "no_bairro": "CENTRO",
+        "co_cep": "55560000",
+        "uf": "PE",
+        "municipio": "Barreiros",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578004",
+        "co_ibge": "250160",
+        "no_fantasia": "UNIDADE BASICA DE SAUDE ASSENTAMENTO RIACHO DA CRUZ ESF IV",
+        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "tp_gestao": "M",
+        "no_logradouro": "ASSENTAMENTO RIACHO DA CRUZ",
+        "nu_endereco": "0000000000",
+        "no_bairro": "ZONA RURAL",
+        "co_cep": "58170000",
+        "uf": "PB",
+        "municipio": "Barra de Santa Rosa",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578039",
+        "co_ibge": "351620",
+        "no_fantasia": "A E CLINICA ESTETICA LTDA ME",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "AV MAJOR NICACIO",
+        "nu_endereco": "1415",
+        "no_bairro": "CIDADE NOVA",
+        "co_cep": "14401135",
+        "uf": "SP",
+        "municipio": "Franca",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578071",
+        "co_ibge": "261485",
+        "no_fantasia": "SECRETARIA DE SAUDE DE TAMANDARE",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA DR LEOPOLDO LINS",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "55578000",
+        "uf": "PE",
+        "municipio": "Tamandaré",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "7567650",
+        "co_ibge": "530010",
+        "no_fantasia": "VCP ODONTOLOGIA",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "E",
+        "no_logradouro": "SGA SUL QUADRA 915 CONJUNTO N SALA",
+        "nu_endereco": "311",
+        "no_bairro": "ASA SUL",
+        "co_cep": "70390150",
+        "uf": "DF",
+        "municipio": "Brasília",
+        "nu_telefone": "(61)32451535"
+    },
+    {
+        "co_cnes": "6578101",
+        "co_ibge": "261190",
+        "no_fantasia": "SECRETARIA DE SAUDE DO RIO FORMOSO",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "PRACA 7 DE FEVEREIRO",
+        "nu_endereco": "01",
+        "no_bairro": "CENTRO",
+        "co_cep": "55570000",
+        "uf": "PE",
+        "municipio": "Rio Formoso",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578128",
+        "co_ibge": "261420",
+        "no_fantasia": "SECRETARIA DE SAUDE DE SIRINHAEM",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA SEBASTIAO CHAVES",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "55580000",
+        "uf": "PE",
+        "municipio": "Sirinhaém",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578551",
+        "co_ibge": "230640",
+        "no_fantasia": "ABDIAS ARAUJO COSTA",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA EUBIA BARROSO",
+        "nu_endereco": "2555",
+        "no_bairro": "CENTRO",
+        "co_cep": "62500000",
+        "uf": "CE",
+        "municipio": "Itapipoca",
+        "nu_telefone": "8836312109"
+    },
+    {
+        "co_cnes": "6578136",
+        "co_ibge": "261340",
+        "no_fantasia": "SECRETARIA DE SAUDE DE SAO JOSE DA COROA GRANDE",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA JOAO FRANCISNO DE MELO",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "55565000",
+        "uf": "PE",
+        "municipio": "São José da Coroa Grande",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578144",
+        "co_ibge": "240420",
+        "no_fantasia": "UNILAB LABORATORIO DE ANALISES CLINICA LTDA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "R CEL MANOEL DUARTE",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "59173000",
+        "uf": "RN",
+        "municipio": "Goianinha",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578160",
+        "co_ibge": "110020",
+        "no_fantasia": "FISIOVIDA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "E",
+        "no_logradouro": "AVENIDA JOSE VIEIRA CAULA",
+        "nu_endereco": "4411",
+        "no_bairro": "FLODOALDO PONTES PIN",
+        "co_cep": "76820391",
+        "uf": "RO",
+        "municipio": "Porto Velho",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578179",
+        "co_ibge": "260040",
+        "no_fantasia": "SECRETARIA DE SAUDE DE AGUA PRETA",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "PRACA DOS TRES PODERES",
+        "nu_endereco": "10",
+        "no_bairro": "CENTRO",
+        "co_cep": "55550000",
+        "uf": "PE",
+        "municipio": "Água Preta",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578195",
+        "co_ibge": "320530",
+        "no_fantasia": "VITORIA OTORRINOS",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "E",
+        "no_logradouro": "RUA ALEIXO NETO",
+        "nu_endereco": "1266",
+        "no_bairro": "PRAIA DO CANTO",
+        "co_cep": "29056190",
+        "uf": "ES",
+        "municipio": "Vitória",
+        "nu_telefone": "27 - 30262101"
+    },
+    {
+        "co_cnes": "6578217",
+        "co_ibge": "353870",
+        "no_fantasia": "IMEDI MEDICINA E DIAGNOSTICO POR IMAGEM PIRACICABA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA INDEPENDENCIA",
+        "nu_endereco": "350",
+        "no_bairro": "CENTRO",
+        "co_cep": "13419160",
+        "uf": "SP",
+        "municipio": "Piracicaba",
+        "nu_telefone": "19 3433-7100"
+    },
+    {
+        "co_cnes": "6578233",
+        "co_ibge": "140023",
+        "no_fantasia": "DEPARTAMENTO DE VIGILANCIA SANITARIA DE CAROEBE",
+        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA AMAZONAS",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "69378000",
+        "uf": "RR",
+        "municipio": "Caroebe",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578241",
+        "co_ibge": "500540",
+        "no_fantasia": "ACADEMIA DO ALEMAO",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA AGUINALDO FERREIRA BARBOSA",
+        "nu_endereco": "791",
+        "no_bairro": "CONJ SAN RAPHAEL",
+        "co_cep": "79150000",
+        "uf": "MS",
+        "municipio": "Maracaju",
+        "nu_telefone": "67 3454 1456"
+    },
+    {
+        "co_cnes": "6578284",
+        "co_ibge": "231100",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE PORANGA",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "AV DR EPITACIO PINHO",
+        "nu_endereco": "S/N",
+        "no_bairro": "VILA NOVA",
+        "co_cep": "62220000",
+        "uf": "CE",
+        "municipio": "Poranga",
+        "nu_telefone": "(88)36581616"
+    },
+    {
+        "co_cnes": "6578292",
+        "co_ibge": "411095",
+        "no_fantasia": "SMS DE ITAIPULANDIA",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA XV DE NOVEMBRO",
+        "nu_endereco": "2950",
+        "no_bairro": "CENTRO",
+        "co_cep": "85880000",
+        "uf": "PR",
+        "municipio": "Itaipulândia",
+        "nu_telefone": "(45) 3559-1715"
+    },
+    {
+        "co_cnes": "6578306",
+        "co_ibge": "311830",
+        "no_fantasia": "FUNDACAO OLHOS DALMA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA DIACONO EDMO VIEIRA",
+        "nu_endereco": "110",
+        "no_bairro": "EXPEDICIONARIOS",
+        "co_cep": "36407228",
+        "uf": "MG",
+        "municipio": "Conselheiro Lafaiete",
+        "nu_telefone": "3761 7707"
+    },
+    {
+        "co_cnes": "6578314",
+        "co_ibge": "351280",
+        "no_fantasia": "CEMETRA",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA FRANCISCO DE MARIO",
+        "nu_endereco": "778",
+        "no_bairro": "BELA VISTA III",
+        "co_cep": "13150000",
+        "uf": "SP",
+        "municipio": "Cosmópolis",
+        "nu_telefone": "19 3872 1936"
+    },
+    {
+        "co_cnes": "6578373",
+        "co_ibge": "150520",
+        "no_fantasia": "HOSPITAL DE PEQUENO PORTE",
+        "ds_tipo_unidade": "HOSPITAL GERAL",
+        "tp_gestao": "D",
+        "no_logradouro": "TRAVESSA HONORIO BASTOS",
+        "nu_endereco": "1008",
+        "no_bairro": "SANTA MARIA",
+        "co_cep": "68470000",
+        "uf": "PA",
+        "municipio": "Oeiras do Pará",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578381",
+        "co_ibge": "330090",
+        "no_fantasia": "CENTRO FISIO",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JOSE GALDINO",
+        "nu_endereco": "129",
+        "no_bairro": "CENTRO",
+        "co_cep": "28430000",
+        "uf": "RJ",
+        "municipio": "Cambuci",
+        "nu_telefone": "22 27672593"
+    },
+    {
+        "co_cnes": "6578411",
+        "co_ibge": "250535",
+        "no_fantasia": "UNIDADE DE VIGILANCIA EM SAUDE DE DAMIAO",
+        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA MANOEL HONORATO DA COSTA",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "58173000",
+        "uf": "PB",
+        "municipio": "Damião",
+        "nu_telefone": "8336351062"
+    },
+    {
+        "co_cnes": "6578446",
+        "co_ibge": "211130",
+        "no_fantasia": "LAYSE ALMEIDA MOREIRA LIMA ME",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "AV COLARES MOREIRA ED LOS ANGELES",
+        "nu_endereco": "100",
+        "no_bairro": "RENASCENCA II",
+        "co_cep": "65075441",
+        "uf": "MA",
+        "municipio": "São Luís",
+        "nu_telefone": "(098) 3083-1312"
+    },
+    {
+        "co_cnes": "6578489",
+        "co_ibge": "316470",
+        "no_fantasia": "VIGILANCIA EM SAUDE",
+        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "R GERALDO MARCOLINE",
+        "nu_endereco": "1236",
+        "no_bairro": "CENTRO",
+        "co_cep": "37950000",
+        "uf": "MG",
+        "municipio": "São Sebastião do Paraíso",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578578",
+        "co_ibge": "355030",
+        "no_fantasia": "AME AMBULATORIO MEDICO DE ESP DE PSIQUIATRIA V MARIA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "E",
+        "no_logradouro": "AVENIDA GUILHERME COTHING",
+        "nu_endereco": "1600",
+        "no_bairro": "VILA MARIA",
+        "co_cep": "02113012",
+        "uf": "SP",
+        "municipio": "São Paulo",
+        "nu_telefone": "11 34781377"
+    },
+    {
+        "co_cnes": "6578586",
+        "co_ibge": "521760",
+        "no_fantasia": "SAMU PLANALTINA DE GOIAS",
+        "ds_tipo_unidade": "UNIDADE MOVEL DE NIVEL PRE-HOSPITALAR NA AREA DE URGENCIA",
+        "tp_gestao": "M",
+        "no_logradouro": "QD 1",
+        "nu_endereco": "08",
+        "no_bairro": "LESTE",
+        "co_cep": "73752010",
+        "uf": "GO",
+        "municipio": "Planaltina",
+        "nu_telefone": "61-36371344"
+    },
+    {
+        "co_cnes": "6578594",
+        "co_ibge": "522185",
+        "no_fantasia": "UNIDADE DE SAUDE DA FAMILIA ARARUAMA",
+        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "tp_gestao": "M",
+        "no_logradouro": "QUADRA 06 LOTE 13 14",
+        "nu_endereco": "13",
+        "no_bairro": "ARARUAMA",
+        "co_cep": "72874020",
+        "uf": "GO",
+        "municipio": "Valparaíso de Goiás",
+        "nu_telefone": "61 - 3627 1351"
+    },
+    {
+        "co_cnes": "6578608",
+        "co_ibge": "351640",
+        "no_fantasia": "VIGILANCIA EM SAUDE DE FRANCO DA ROCHA",
+        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",
+        "tp_gestao": "E",
+        "no_logradouro": "AVENIDA DOS COQUEIROS",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "07850320",
+        "uf": "SP",
+        "municipio": "Franco da Rocha",
+        "nu_telefone": "11-4444 5175"
+    },
+    {
+        "co_cnes": "6578632",
+        "co_ibge": "355030",
+        "no_fantasia": "FARMACIA MEDEX CENTRO DE REFERENCIA DA SAUDE DA MULHER",
+        "ds_tipo_unidade": "FARMACIA",
+        "tp_gestao": "E",
+        "no_logradouro": "AV BRIGADEIRO LUIZ ANTONIO",
+        "nu_endereco": "683",
+        "no_bairro": "CENTRO",
+        "co_cep": "01317000",
+        "uf": "SP",
+        "municipio": "São Paulo",
+        "nu_telefone": "11- 3248-8000"
+    },
+    {
+        "co_cnes": "6578640",
+        "co_ibge": "355030",
+        "no_fantasia": "FARMACIA MEDEX DR GERALDO BOURROUL",
+        "ds_tipo_unidade": "FARMACIA",
+        "tp_gestao": "E",
+        "no_logradouro": "RUA MARTINS FONTES",
+        "nu_endereco": "208",
+        "no_bairro": "CENTRO",
+        "co_cep": "01050000",
+        "uf": "SP",
+        "municipio": "São Paulo",
+        "nu_telefone": "11- 2141 6212"
+    },
+    {
+        "co_cnes": "6578659",
+        "co_ibge": "521760",
+        "no_fantasia": "LABORATORIO DE PROTESE DENTARIO",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "QD 1 MR 09",
+        "nu_endereco": "1",
+        "no_bairro": "SETOR LESTE",
+        "co_cep": "73752020",
+        "uf": "GO",
+        "municipio": "Planaltina",
+        "nu_telefone": "61-36371344"
+    },
+    {
+        "co_cnes": "6578675",
+        "co_ibge": "510370",
+        "no_fantasia": "LABORATORIO PRO SAUDE",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA SAO JOSE DO CEDRO",
+        "nu_endereco": "915",
+        "no_bairro": "CENTRO",
+        "co_cep": "78885000",
+        "uf": "MT",
+        "municipio": "Feliz Natal",
+        "nu_telefone": "6635851776"
+    },
+    {
+        "co_cnes": "6578705",
+        "co_ibge": "250750",
+        "no_fantasia": "CONSULTORIO ODONTOLOGICO MARIA CRISTINA T DE M HONORATO",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "AV EPITACIO PESSOA",
+        "nu_endereco": "753",
+        "no_bairro": "BAIRRO DOS ESTADOS",
+        "co_cep": "58030904",
+        "uf": "PB",
+        "municipio": "João Pessoa",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578713",
+        "co_ibge": "310210",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE ALTO RIO DOCE",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "PRACA ERNESTINA MOREIRA COUTO",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "36260000",
+        "uf": "MG",
+        "municipio": "Alto Rio Doce",
+        "nu_telefone": "32-33451433"
+    },
+    {
+        "co_cnes": "6578748",
+        "co_ibge": "230240",
+        "no_fantasia": "CLINODONTUS",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA PADRE MORORO",
+        "nu_endereco": "322",
+        "no_bairro": "CENTRO",
+        "co_cep": "63870000",
+        "uf": "CE",
+        "municipio": "Boa Viagem",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578772",
+        "co_ibge": "150215",
+        "no_fantasia": "LABORATORIO CIRIO DE NAZARE",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA JK",
+        "nu_endereco": "123",
+        "no_bairro": "CENTRO",
+        "co_cep": "68537000",
+        "uf": "PA",
+        "municipio": "Canaã dos Carajás",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578799",
+        "co_ibge": "316470",
+        "no_fantasia": "FARMACIA BASICA MUNICIPAL",
+        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "tp_gestao": "M",
+        "no_logradouro": "R DOS ANTUNE",
+        "nu_endereco": "733",
+        "no_bairro": "CENTRO",
+        "co_cep": "37950000",
+        "uf": "MG",
+        "municipio": "São Sebastião do Paraíso",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6578802",
+        "co_ibge": "420540",
+        "no_fantasia": "LIV ESPACO SAUDE",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA TANGARA",
+        "nu_endereco": "41",
+        "no_bairro": "AGRONOMICA",
+        "co_cep": "88025460",
+        "uf": "SC",
+        "municipio": "Florianópolis",
+        "nu_telefone": "(48) 30313400"
+    },
+    {
+        "co_cnes": "6578837",
+        "co_ibge": "420540",
+        "no_fantasia": "CONSULTORIO ODONTOLOGICO DANIELA CAPELLA",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JOAO PIO DUARTE SILVA",
+        "nu_endereco": "492",
+        "no_bairro": "CORREGO GRANDE",
+        "co_cep": "88037000",
+        "uf": "SC",
+        "municipio": "Florianópolis",
+        "nu_telefone": "(48) 32332677"
+    },
+    {
+        "co_cnes": "6578896",
+        "co_ibge": "355250",
+        "no_fantasia": "SUZAN BELA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "AV ARMANDO SALLES DE OLIVEIRA",
+        "nu_endereco": "633",
+        "no_bairro": "CENTRO",
+        "co_cep": "08673000",
+        "uf": "SP",
+        "municipio": "Suzano",
+        "nu_telefone": "11 47487462"
+    },
+    {
+        "co_cnes": "6578918",
+        "co_ibge": "350720",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE BORA",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JOAO MERCI",
+        "nu_endereco": "150",
+        "no_bairro": "CENTRO",
+        "co_cep": "19740000",
+        "uf": "SP",
+        "municipio": "Borá",
+        "nu_telefone": "18 33671114"
+    },
+    {
+        "co_cnes": "6579019",
+        "co_ibge": "330115",
+        "no_fantasia": "CENTRO MEDICO DE CARDOSO MOREIRA",
+        "ds_tipo_unidade": "POLICLINICA",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JOEL REIS",
+        "nu_endereco": "190",
+        "no_bairro": "CENTRO",
+        "co_cep": "28180000",
+        "uf": "RJ",
+        "municipio": "Cardoso Moreira",
+        "nu_telefone": "27851298"
+    },
+    {
+        "co_cnes": "6579051",
+        "co_ibge": "411390",
+        "no_fantasia": "LABORATORIO BIOLAB",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "E",
+        "no_logradouro": "RUA SANTOS DUMONT",
+        "nu_endereco": "601",
+        "no_bairro": "CENTRO",
+        "co_cep": "84570000",
+        "uf": "PR",
+        "municipio": "Mallet",
+        "nu_telefone": "42 3542 2102"
+    },
+    {
+        "co_cnes": "6579132",
+        "co_ibge": "530010",
+        "no_fantasia": "ASFUB",
+        "ds_tipo_unidade": "POLICLINICA",
+        "tp_gestao": "E",
+        "no_logradouro": "CAMPUS UNIVERSITARIO DARCY RIBEIRO GLEBA A",
+        "nu_endereco": "S/N",
+        "no_bairro": "ASA NORTE",
+        "co_cep": "70910900",
+        "uf": "DF",
+        "municipio": "Brasília",
+        "nu_telefone": "3307 1024"
+    },
+    {
+        "co_cnes": "6579140",
+        "co_ibge": "510794",
+        "no_fantasia": "FARMACIA CENTRAL",
+        "ds_tipo_unidade": "FARMACIA",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA VILAS BOAS",
+        "nu_endereco": "206",
+        "no_bairro": "CENTRO",
+        "co_cep": "78563000",
+        "uf": "MT",
+        "municipio": "Tabaporã",
+        "nu_telefone": "06635571223"
+    },
+    {
+        "co_cnes": "6579159",
+        "co_ibge": "220230",
+        "no_fantasia": "SECRETARIA MUN DE SAUDE DE CANTO DO BURITI",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "PRACA SANTANA",
+        "nu_endereco": "336",
+        "no_bairro": "CENTRO",
+        "co_cep": "64890000",
+        "uf": "PI",
+        "municipio": "Canto do Buriti",
+        "nu_telefone": "35311499"
+    },
+    {
+        "co_cnes": "6579183",
+        "co_ibge": "240560",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA 15 DE NOVEMBRO",
+        "nu_endereco": "136",
+        "no_bairro": "CENTRO",
+        "co_cep": "59324000",
+        "uf": "RN",
+        "municipio": "Jardim de Piranhas",
+        "nu_telefone": "84-3423-2506"
+    },
+    {
+        "co_cnes": "6579191",
+        "co_ibge": "230440",
+        "no_fantasia": "ELIANE ALENCAR GOMES",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "AV DES MOREIRA",
+        "nu_endereco": "2808",
+        "no_bairro": "DIONISIO TORRES",
+        "co_cep": "60170002",
+        "uf": "CE",
+        "municipio": "Fortaleza",
+        "nu_telefone": "32279600"
+    },
+    {
+        "co_cnes": "6579248",
+        "co_ibge": "240200",
+        "no_fantasia": "LEANDRO MORAIS GIFFONE OVIDIO",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA RENATO DANTAS",
+        "nu_endereco": "379",
+        "no_bairro": "CENTRO",
+        "co_cep": "59300000",
+        "uf": "RN",
+        "municipio": "Caicó",
+        "nu_telefone": "8434212602"
+    },
+    {
+        "co_cnes": "6579302",
+        "co_ibge": "171660",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE PEIXE",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "AV JOAO VISCONDE DE QUEIROZ",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "77460000",
+        "uf": "TO",
+        "municipio": "Peixe",
+        "nu_telefone": "33561632"
+    },
+    {
+        "co_cnes": "6579396",
+        "co_ibge": "352940",
+        "no_fantasia": "IMEDI INSTITUTO DE MEDICINA DIAGNOSTICA",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA GENERAL OSORIO",
+        "nu_endereco": "228",
+        "no_bairro": "VILA BOCAINA",
+        "co_cep": "09310050",
+        "uf": "SP",
+        "municipio": "Mauá",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6579418",
+        "co_ibge": "352940",
+        "no_fantasia": "BIOFAST LABORATORIO MUNICIPAL DE MAUA",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA REGENTE FEIJO",
+        "nu_endereco": "166",
+        "no_bairro": "VILA GUARANI",
+        "co_cep": "09310640",
+        "uf": "SP",
+        "municipio": "Mauá",
+        "nu_telefone": "1145476919"
+    },
+    {
+        "co_cnes": "6579566",
+        "co_ibge": "412635",
+        "no_fantasia": "SMS DE SERRANOPOLIS DO IGUACU",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA PARANA",
+        "nu_endereco": "620",
+        "no_bairro": "FLOR DA SERRA",
+        "co_cep": "85885000",
+        "uf": "PR",
+        "municipio": "Serranópolis do Iguaçu",
+        "nu_telefone": "4532361122"
+    },
+    {
+        "co_cnes": "6579582",
+        "co_ibge": "354890",
+        "no_fantasia": "CAMILA MARRARA BENJAMIN",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JOSE BONIFACIO",
+        "nu_endereco": "1803",
+        "no_bairro": "CENTRO",
+        "co_cep": "13560610",
+        "uf": "SP",
+        "municipio": "São Carlos",
+        "nu_telefone": "16-3371-8521"
+    },
+    {
+        "co_cnes": "6579639",
+        "co_ibge": "352980",
+        "no_fantasia": "DEPARTAMENTO MUNICIPAL DE SAUDE DE MINEIROS DO TIETE",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA AMALIA SANTESSO RAMPAZZO",
+        "nu_endereco": "110",
+        "no_bairro": "JARDIM EUROPA",
+        "co_cep": "17320000",
+        "uf": "SP",
+        "municipio": "Mineiros do Tietê",
+        "nu_telefone": "14-36463800"
+    },
+    {
+        "co_cnes": "6706584",
+        "co_ibge": "410690",
+        "no_fantasia": "EXLINE CLINICA INTEGRADA",
+        "ds_tipo_unidade": "POLICLINICA",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA PADRE ANCHIETA",
+        "nu_endereco": "1846",
+        "no_bairro": "BIGORRILHO",
+        "co_cep": "80730000",
+        "uf": "PR",
+        "municipio": "Curitiba",
+        "nu_telefone": "41-30187843"
+    },
+    {
+        "co_cnes": "6579744",
+        "co_ibge": "291840",
+        "no_fantasia": "INSTITUTO VIVER DR ROBERTO",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA PAULO AFONSO",
+        "nu_endereco": "437",
+        "no_bairro": "ALTO DA MARAVILHA",
+        "co_cep": "48904580",
+        "uf": "BA",
+        "municipio": "Juazeiro",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6579752",
+        "co_ibge": "320050",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE APIACA",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JERONIMO MONTEIRO",
+        "nu_endereco": "44",
+        "no_bairro": "CENTRO",
+        "co_cep": "29450000",
+        "uf": "ES",
+        "municipio": "Apiacá",
+        "nu_telefone": "28 - 35571393"
+    },
+    {
+        "co_cnes": "6579760",
+        "co_ibge": "320520",
+        "no_fantasia": "FLAVIA MARIA GOMES LITTIG",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA CHAMPAGNAT",
+        "nu_endereco": "583",
+        "no_bairro": "PRAIA DA COSTA",
+        "co_cep": "29101390",
+        "uf": "ES",
+        "municipio": "Vila Velha",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6579779",
+        "co_ibge": "510790",
+        "no_fantasia": "CENTRO DE REFERENCIA EM HANSENIASE E TUBERCULOSE DE SINOP",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA DOS EUCALIPTOS",
+        "nu_endereco": "208",
+        "no_bairro": "SETOR COMERCIAL",
+        "co_cep": "78550180",
+        "uf": "MT",
+        "municipio": "Sinop",
+        "nu_telefone": "66 9618 0820"
+    },
+    {
+        "co_cnes": "6579787",
+        "co_ibge": "320520",
+        "no_fantasia": "MARTHA ALAYDE ALCANTARA SALIM",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA CHAMPAGNAT",
+        "nu_endereco": "583",
+        "no_bairro": "SALA 209",
+        "co_cep": "29100010",
+        "uf": "ES",
+        "municipio": "Vila Velha",
+        "nu_telefone": "2733293170"
+    },
+    {
+        "co_cnes": "6579795",
+        "co_ibge": "320520",
+        "no_fantasia": "PARMAGNANI ODONTOLOGIA LTDA ME",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA DOUTOR OLIVIO LIRA",
+        "nu_endereco": "353",
+        "no_bairro": "PRAIA DA COSTA",
+        "co_cep": "29101950",
+        "uf": "ES",
+        "municipio": "Vila Velha",
+        "nu_telefone": "2732393160"
+    },
+    {
+        "co_cnes": "6579817",
+        "co_ibge": "320520",
+        "no_fantasia": "THAIS BARRETO DA ROCHA FRANCA SILVA",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA SANTA LEOPOLDINA",
+        "nu_endereco": "1825",
+        "no_bairro": "COQUEIRAL DE ITAPARI",
+        "co_cep": "29102040",
+        "uf": "ES",
+        "municipio": "Vila Velha",
+        "nu_telefone": "2733391999"
+    },
+    {
+        "co_cnes": "6579825",
+        "co_ibge": "320520",
+        "no_fantasia": "VALERIA BONIKOVSKI",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA TENENTE SETUBAL",
+        "nu_endereco": "93",
+        "no_bairro": "ITAPOA",
+        "co_cep": "29101570",
+        "uf": "ES",
+        "municipio": "Vila Velha",
+        "nu_telefone": "2733490339"
+    },
+    {
+        "co_cnes": "6579833",
+        "co_ibge": "510790",
+        "no_fantasia": "LABORATORIO MUNICIPAL ANALISES CLINICAS DE SINOP",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA DAS PITOMBEIRAS",
+        "nu_endereco": "1270",
+        "no_bairro": "JD JACARANDAS",
+        "co_cep": "78557670",
+        "uf": "MT",
+        "municipio": "Sinop",
+        "nu_telefone": "66 3511 1998"
+    },
+    {
+        "co_cnes": "6579876",
+        "co_ibge": "510790",
+        "no_fantasia": "LMPD LABORATORIO MUNICIPAL DE PROTESES DENTARIAS DE SINOP",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA DAS CASTANHEIRAS",
+        "nu_endereco": "1118",
+        "no_bairro": "SETOR COMERCIAL",
+        "co_cep": "78550290",
+        "uf": "MT",
+        "municipio": "Sinop",
+        "nu_telefone": "66-35315672"
+    },
+    {
+        "co_cnes": "6579892",
+        "co_ibge": "431580",
+        "no_fantasia": "SECRETARIA MUNICIPAL DA SAUDE DE ROCA SALES",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA NAPOLEAO MAIOLI",
+        "nu_endereco": "154",
+        "no_bairro": "CENTRO",
+        "co_cep": "95735000",
+        "uf": "RS",
+        "municipio": "Roca Sales",
+        "nu_telefone": "37532577 37531688"
+    },
+    {
+        "co_cnes": "6579914",
+        "co_ibge": "432145",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE TEUTONIA",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "AV 01 OESTE",
+        "nu_endereco": "878",
+        "no_bairro": "CENTRO ADMINISTRATIV",
+        "co_cep": "95890000",
+        "uf": "RS",
+        "municipio": "Teutônia",
+        "nu_telefone": "37627767"
+    },
+    {
+        "co_cnes": "6579922",
+        "co_ibge": "270430",
+        "no_fantasia": "ORAL CENTER",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA SANTA CRUZ",
+        "nu_endereco": "340",
+        "no_bairro": "FAROL",
+        "co_cep": "57051590",
+        "uf": "AL",
+        "municipio": "Maceió",
+        "nu_telefone": "(082)3221-8080"
+    },
+    {
+        "co_cnes": "6579957",
+        "co_ibge": "210530",
+        "no_fantasia": "CLINCENTER",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "AV DORGIVAL PINHEIRO DE SOUSA",
+        "nu_endereco": "1193",
+        "no_bairro": "CENTRO",
+        "co_cep": "65903270",
+        "uf": "MA",
+        "municipio": "Imperatriz",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6579965",
+        "co_ibge": "330100",
+        "no_fantasia": "PROGRAMA HIPERDIA",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA VOLUNTARIOS DA PATRIA",
+        "nu_endereco": "875",
+        "no_bairro": "CENTRO",
+        "co_cep": "28035260",
+        "uf": "RJ",
+        "municipio": "Campos dos Goytacazes",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6579973",
+        "co_ibge": "330045",
+        "no_fantasia": "APAE BELFORD ROXO",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA CASTRO VIEIRA",
+        "nu_endereco": "137",
+        "no_bairro": "AREIA BRANCA",
+        "co_cep": "26116280",
+        "uf": "RJ",
+        "municipio": "Belford Roxo",
+        "nu_telefone": "21-2662-1564"
+    },
+    {
+        "co_cnes": "6580009",
+        "co_ibge": "311310",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA SANTA TEREZINHA",
+        "nu_endereco": "200",
+        "no_bairro": "CENTRO",
+        "co_cep": "36428000",
+        "uf": "MG",
+        "municipio": "Caranaíba",
+        "nu_telefone": "(31)3725-1150"
+    },
+    {
+        "co_cnes": "6581811",
+        "co_ibge": "230100",
+        "no_fantasia": "ABVCF ASSOCIACAO",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "ESTRADA DA TELHA",
+        "nu_endereco": "S/N",
+        "no_bairro": "CAMARA",
+        "co_cep": "61700000",
+        "uf": "CE",
+        "municipio": "Aquiraz",
+        "nu_telefone": "32524090"
+    },
+    {
+        "co_cnes": "6580025",
+        "co_ibge": "270430",
+        "no_fantasia": "FISIOCLIN",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA DR JOSE AFONSO DE MELO",
+        "nu_endereco": "68",
+        "no_bairro": "MANGABEIRAS",
+        "co_cep": "57035510",
+        "uf": "AL",
+        "municipio": "Maceió",
+        "nu_telefone": "(082) 2126 -0885"
+    },
+    {
+        "co_cnes": "6580033",
+        "co_ibge": "230260",
+        "no_fantasia": "PRONTOLAB",
+        "ds_tipo_unidade": "UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA 24 DE MAIO",
+        "nu_endereco": "1680",
+        "no_bairro": "CENTRO",
+        "co_cep": "62400000",
+        "uf": "CE",
+        "municipio": "Camocim",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6580130",
+        "co_ibge": "230630",
+        "no_fantasia": "INSTITUTO DE OFTALMOLOGIA DE ITAPAJE",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA ANTONIO BRAGA",
+        "nu_endereco": "220",
+        "no_bairro": "CENTRO",
+        "co_cep": "62600000",
+        "uf": "CE",
+        "municipio": "Itapagé",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6580254",
+        "co_ibge": "310280",
+        "no_fantasia": "UNIDADE SAUDE DA FAMILIA DR EDSON REZENDE MEIRELES",
+        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JOSE DE ANDRADE GODINHO",
+        "nu_endereco": "S/N",
+        "no_bairro": "ROSARIO",
+        "co_cep": "37300000",
+        "uf": "MG",
+        "municipio": "Andrelândia",
+        "nu_telefone": "3533251765"
+    },
+    {
+        "co_cnes": "6580262",
+        "co_ibge": "320150",
+        "no_fantasia": "SUPERINTENDENCIA REGIONAL DE SAUDE DE COLATINA",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA AROLDO ANTOLINI",
+        "nu_endereco": "0",
+        "no_bairro": "VILA NOVA",
+        "co_cep": "29702080",
+        "uf": "ES",
+        "municipio": "Colatina",
+        "nu_telefone": "27 3177 7921"
+    },
+    {
+        "co_cnes": "6580289",
+        "co_ibge": "315120",
+        "no_fantasia": "CADIP",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JOSE EUDES DE LORENA",
+        "nu_endereco": "67",
+        "no_bairro": "NOVA PIRAPORA",
+        "co_cep": "39270000",
+        "uf": "MG",
+        "municipio": "Pirapora",
+        "nu_telefone": "3837413862"
+    },
+    {
+        "co_cnes": "6580300",
+        "co_ibge": "354110",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE PRESIDENTE ALVES",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA RUI BARBOSA",
+        "nu_endereco": "45",
+        "no_bairro": "CENTRO",
+        "co_cep": "16670000",
+        "uf": "SP",
+        "municipio": "Presidente Alves",
+        "nu_telefone": "14 35871459"
+    },
+    {
+        "co_cnes": "6580319",
+        "co_ibge": "354340",
+        "no_fantasia": "ANDRE LUIS NASCIMENTO PEREIRA",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA MILTON JOSE ROBUSTI",
+        "nu_endereco": "75",
+        "no_bairro": "JD BOTANICO",
+        "co_cep": "14021613",
+        "uf": "SP",
+        "municipio": "Ribeirão Preto",
+        "nu_telefone": "(16)39312298"
+    },
+    {
+        "co_cnes": "6580327",
+        "co_ibge": "314465",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE NINHEIRA",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "AV DOMINGOS JOSE DE MATOS",
+        "nu_endereco": "167",
+        "no_bairro": "CENTRO",
+        "co_cep": "39553000",
+        "uf": "MG",
+        "municipio": "Ninheira",
+        "nu_telefone": "3838328337"
+    },
+    {
+        "co_cnes": "6580335",
+        "co_ibge": "431010",
+        "no_fantasia": "UNIDADE DE SAUDE BOM PASTOR",
+        "ds_tipo_unidade": "CENTRO DE SAUDE/UNIDADE BASICA",
+        "tp_gestao": "M",
+        "no_logradouro": "BALDUINO GEIS",
+        "nu_endereco": "25",
+        "no_bairro": "BOM PASTOR",
+        "co_cep": "95650000",
+        "uf": "RS",
+        "municipio": "Igrejinha",
+        "nu_telefone": "(51)35458340"
+    },
+    {
+        "co_cnes": "6580378",
+        "co_ibge": "351370",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DESCALVADO",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA JOSE QUIRINO RIBEIRO",
+        "nu_endereco": "55",
+        "no_bairro": "CENTRO",
+        "co_cep": "13690000",
+        "uf": "SP",
+        "municipio": "Descalvado",
+        "nu_telefone": "19-35839341"
+    },
+    {
+        "co_cnes": "6580475",
+        "co_ibge": "431245",
+        "no_fantasia": "FISIO GUTERRES",
+        "ds_tipo_unidade": "CLINICA/CENTRO DE ESPECIALIDADE",
+        "tp_gestao": "E",
+        "no_logradouro": "AVENIDA JACARANDA",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "96150000",
+        "uf": "RS",
+        "municipio": "Morro Redondo",
+        "nu_telefone": "5332240076"
+    },
+    {
+        "co_cnes": "6580483",
+        "co_ibge": "291110",
+        "no_fantasia": "SECRETARIA MUNICIPAL DE SAUDE DE FORMOSA DO RIO PRETO",
+        "ds_tipo_unidade": "CENTRAL DE GESTAO EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "AVENIDA DA MATRIZ",
+        "nu_endereco": "S/N",
+        "no_bairro": "CENTRO",
+        "co_cep": "47990000",
+        "uf": "BA",
+        "municipio": "Formosa do Rio Preto",
+        "nu_telefone": "77-3616-2217"
+    },
+    {
+        "co_cnes": "6580505",
+        "co_ibge": "251420",
+        "no_fantasia": "VIGILANCIA SANITARIA",
+        "ds_tipo_unidade": "UNIDADE DE VIGILANCIA EM SAUDE",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA CAPITAO MANOEL ROCHA",
+        "nu_endereco": "01",
+        "no_bairro": "CENTRO",
+        "co_cep": "58815000",
+        "uf": "PB",
+        "municipio": "São José da Lagoa Tapada",
+        "nu_telefone": "0"
+    },
+    {
+        "co_cnes": "6580548",
+        "co_ibge": "352920",
+        "no_fantasia": "CLINICA MEDICA E ODONTOLOGICA",
+        "ds_tipo_unidade": "CONSULTORIO ISOLADO",
+        "tp_gestao": "M",
+        "no_logradouro": "RUA CAROLINA DE FREITAS MARTINS",
+        "nu_endereco": "15",
+        "no_bairro": "CENTRO",
+        "co_cep": "19500000",
+        "uf": "SP",
+        "municipio": "Martinópolis",
+        "nu_telefone": "18-3275-1082"
+    }
+]
+}
