@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    @IBOutlet weak var filterSC: UISegmentedControl!
-    @IBOutlet weak var cnesTV: UITableView!
+    @IBOutlet weak var filterSegmentControl: UISegmentedControl!
+    @IBOutlet weak var cnesTableView: UITableView!
     @IBOutlet weak var viewForm: UIView!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var managementField: UITextField!
@@ -33,9 +33,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         self.hiddenShowForm(show: false)
         self.getCnesList()
-        self.cnesTV.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
-        cnesTV.delegate = self
-        cnesTV.dataSource = self
+        self.cnesTableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
+        cnesTableView.delegate = self
+        cnesTableView.dataSource = self
         
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         
@@ -93,13 +93,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     @IBAction func indexChanged(_ sender: UISegmentedControl) {
-        switch filterSC.selectedSegmentIndex {
+        switch filterSegmentControl.selectedSegmentIndex {
         case 0:
             self.listCNES = self.listCNES.sorted { $0.uf.lowercased() < $1.uf.lowercased() }
-            self.cnesTV.reloadData()
+            self.cnesTableView.reloadData()
         case 1:
             self.listCNES = self.listCNES.sorted(by: {$0.ds_tipo_unidade.lowercased() < $1.ds_tipo_unidade.lowercased()})
-            self.cnesTV.reloadData()
+            self.cnesTableView.reloadData()
         default:
             break;
         }
@@ -125,7 +125,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.listCNES.append(self.itemUpdate)
         
         self.listCNES = self.listCNES.sorted { $0.uf.lowercased() < $1.uf.lowercased() }
-        self.cnesTV.reloadData()
+        self.cnesTableView.reloadData()
     }
     @IBAction func cancel(_ sender: Any) {
         self.viewForm.isHidden = true
@@ -138,7 +138,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = (self.cnesTV.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as UITableViewCell?)!
+        let cell:UITableViewCell = (self.cnesTableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as UITableViewCell?)!
 
         cell.textLabel?.text = self.listCNES[indexPath.row].no_fantasia
                 
