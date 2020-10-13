@@ -74,7 +74,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
        }
 
     func getCnesList(){
-                
         if let path = Bundle.main.path(forResource: "data", ofType: "json") {
             do {
                   let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
@@ -114,13 +113,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.itemUpdate.no_fantasia = self.nameField.text!
         self.itemUpdate.tp_gestao = self.managementField.text!
         self.itemUpdate.ds_tipo_unidade = self.typeField.text!
-        self.itemUpdate.co_cep = self.cepField.text!
+        self.itemUpdate.co_cep = (self.cepField.text! != "") ? self.cepField.text! : "0"
         self.itemUpdate.no_bairro = self.districtField.text!
         self.itemUpdate.municipio = self.cityField.text!
         self.itemUpdate.no_logradouro = self.streetField.text!
-        self.itemUpdate.nu_endereco = self.numberField.text!
+        self.itemUpdate.nu_endereco = (self.numberField.text! != "") ? self.numberField.text! : "S/N"
         self.itemUpdate.uf = self.ufField.text!
-        self.itemUpdate.nu_telefone = self.phoneField.text!
+        self.itemUpdate.nu_telefone = (self.phoneField.text! != "") ? self.phoneField.text! : "0"
         
         self.listCNES.remove(at: self.indexItemUpdate)
         self.listCNES.append(self.itemUpdate)
