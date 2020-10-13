@@ -27,6 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let cellReuseIdentifier = "cell"
     var listCNES: [Cnes] = []
     var itemUpdate: Cnes = Cnes()
+    var indexItemUpdate: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,7 +62,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
          if endFrameY >= UIScreen.main.bounds.size.height {
            self.heightViewForm?.constant = 0.0
          } else {
-            self.heightViewForm?.constant = 272.0 + (endFrame?.size.height ?? 0.0)
+            self.heightViewForm?.constant = 294.0 + (endFrame?.size.height ?? 0.0)
          }
 
          UIView.animate(
@@ -84,7 +85,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         let cnes = Cnes(data: item as! [String : Any])
                         self.listCNES.append(cnes)
                     }
-                    self.listCNES = self.listCNES.sorted(by: {$0.ds_tipo_unidade < $1.ds_tipo_unidade})
+                    self.listCNES = self.listCNES.sorted(by: {$0.uf.lowercased() < $1.uf.lowercased()})
                   }
               } catch {
                    print("Erro ao acessar banco de dados")
@@ -95,10 +96,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBAction func indexChanged(_ sender: UISegmentedControl) {
         switch filterSC.selectedSegmentIndex {
         case 0:
-            self.listCNES = self.listCNES.sorted(by: {$0.ds_tipo_unidade < $1.ds_tipo_unidade})
+            self.listCNES = self.listCNES.sorted { $0.uf.lowercased() < $1.uf.lowercased() }
             self.cnesTV.reloadData()
         case 1:
-            self.listCNES = self.listCNES.sorted { $0.uf.lowercased() < $1.uf.lowercased() }
+            self.listCNES = self.listCNES.sorted(by: {$0.ds_tipo_unidade.lowercased() < $1.ds_tipo_unidade.lowercased()})
             self.cnesTV.reloadData()
         default:
             break;
@@ -121,29 +122,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.itemUpdate.uf = self.ufField.text!
         self.itemUpdate.nu_telefone = self.phoneField.text!
         
-        let dictionary: [String: Any] = ["co_cnes": self.itemUpdate.co_cnes,
-                                         "co_ibge": self.itemUpdate.co_ibge,
-                                         "no_fantasia": self.itemUpdate.no_fantasia,
-                                         "ds_tipo_unidade": self.itemUpdate.ds_tipo_unidade,
-                                         "tp_gestao": self.itemUpdate.tp_gestao,
-                                         "no_logradouro": self.itemUpdate.no_logradouro,
-                                         "nu_endereco": self.itemUpdate.nu_endereco,
-                                         "no_bairro": self.itemUpdate.no_bairro,
-                                         "co_cep": self.itemUpdate.co_cep,
-                                         "uf": self.itemUpdate.uf,
-                                         "municipio": self.itemUpdate.municipio,
-                                         "nu_telefone": self.itemUpdate.nu_telefone]
+        self.listCNES.remove(at: self.indexItemUpdate)
+        self.listCNES.append(self.itemUpdate)
         
-        do {
-            let fileURL = try FileManager.default
-                .url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-                .appendingPathComponent("data.json")
-
-            try JSONSerialization.data(withJSONObject: dictionary)
-                .write(to: fileURL)
-        } catch {
-            print(error)
-        }
+        self.listCNES = self.listCNES.sorted { $0.uf.lowercased() < $1.uf.lowercased() }
+        self.cnesTV.reloadData()
     }
     @IBAction func cancel(_ sender: Any) {
         self.viewForm.isHidden = true
@@ -165,6 +148,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedItem = self.listCNES[indexPath.row]
+        self.indexItemUpdate = indexPath.row
         self.fillForm(item: selectedItem)
         self.hiddenShowForm(show: true)
     }
@@ -188,7 +172,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.heightViewForm.constant = 0.0
         if show {
             self.viewForm.isHidden = false
-            self.heightViewForm.constant = 272.0
+            self.heightViewForm.constant = 294.0
         }
     }
 }
