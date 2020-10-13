@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F23A790F253552FE000257D0 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F23A790E253552FE000257D0 /* data.json */; };
+		F2E330DB25333AA900B7396A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E330DA25333AA900B7396A /* AppDelegate.swift */; };
+		F2E330DD25333AA900B7396A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E330DC25333AA900B7396A /* SceneDelegate.swift */; };
+		F2E330DF25333AA900B7396A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E330DE25333AA900B7396A /* ViewController.swift */; };
+		F2E330E225333AA900B7396A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E330E025333AA900B7396A /* Main.storyboard */; };
+		F2E330E525333AA900B7396A /* Desafio_da_Saude_MV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2E330E325333AA900B7396A /* Desafio_da_Saude_MV.xcdatamodeld */; };
+		F2E330E725333AB700B7396A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E330E625333AB700B7396A /* Assets.xcassets */; };
+		F2E330EA25333AB700B7396A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E330E825333AB700B7396A /* LaunchScreen.storyboard */; };
+		F2E330F525333ABB00B7396A /* Desafio_da_Saude_MVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E330F425333ABB00B7396A /* Desafio_da_Saude_MVTests.swift */; };
+		F2E3310025333ABC00B7396A /* Desafio_da_Saude_MVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E330FF25333ABC00B7396A /* Desafio_da_Saude_MVUITests.swift */; };
+		F2E33112253341E700B7396A /* Cnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E33111253341E700B7396A /* Cnes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E330F125333ABB00B7396A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E330CF25333AA800B7396A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E330D625333AA800B7396A;
+			remoteInfo = "Desafio da Saude MV";
+		};
+		F2E330FC25333ABC00B7396A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E330CF25333AA800B7396A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E330D625333AA800B7396A;
+			remoteInfo = "Desafio da Saude MV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F23A790E253552FE000257D0 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F2E330D725333AA800B7396A /* Desafio da Saude MV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio da Saude MV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E330DA25333AA900B7396A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2E330DC25333AA900B7396A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2E330DE25333AA900B7396A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2E330E125333AA900B7396A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2E330E425333AA900B7396A /* Desafio_da_Saude_MV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Desafio_da_Saude_MV.xcdatamodel; sourceTree = "<group>"; };
+		F2E330E625333AB700B7396A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2E330E925333AB700B7396A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2E330EB25333AB800B7396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E330F025333ABB00B7396A /* Desafio da Saude MVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio da Saude MVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E330F425333ABB00B7396A /* Desafio_da_Saude_MVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_da_Saude_MVTests.swift; sourceTree = "<group>"; };
+		F2E330F625333ABB00B7396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E330FB25333ABC00B7396A /* Desafio da Saude MVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio da Saude MVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E330FF25333ABC00B7396A /* Desafio_da_Saude_MVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_da_Saude_MVUITests.swift; sourceTree = "<group>"; };
+		F2E3310125333ABC00B7396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E33111253341E700B7396A /* Cnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cnes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E330D425333AA800B7396A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E330ED25333ABA00B7396A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E330F825333ABB00B7396A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2E330CE25333AA800B7396A = {
+			isa = PBXGroup;
+			children = (
+				F2E330D925333AA800B7396A /* Desafio da Saude MV */,
+				F2E330F325333ABB00B7396A /* Desafio da Saude MVTests */,
+				F2E330FE25333ABC00B7396A /* Desafio da Saude MVUITests */,
+				F2E330D825333AA800B7396A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E330D825333AA800B7396A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E330D725333AA800B7396A /* Desafio da Saude MV.app */,
+				F2E330F025333ABB00B7396A /* Desafio da Saude MVTests.xctest */,
+				F2E330FB25333ABC00B7396A /* Desafio da Saude MVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E330D925333AA800B7396A /* Desafio da Saude MV */ = {
+			isa = PBXGroup;
+			children = (
+				F23A790E253552FE000257D0 /* data.json */,
+				F2E33119253341F500B7396A /* viewControllers */,
+				F2E33110253341D300B7396A /* models */,
+				F2E330DA25333AA900B7396A /* AppDelegate.swift */,
+				F2E330DC25333AA900B7396A /* SceneDelegate.swift */,
+				F2E330E025333AA900B7396A /* Main.storyboard */,
+				F2E330E625333AB700B7396A /* Assets.xcassets */,
+				F2E330E825333AB700B7396A /* LaunchScreen.storyboard */,
+				F2E330EB25333AB800B7396A /* Info.plist */,
+				F2E330E325333AA900B7396A /* Desafio_da_Saude_MV.xcdatamodeld */,
+			);
+			path = "Desafio da Saude MV";
+			sourceTree = "<group>";
+		};
+		F2E330F325333ABB00B7396A /* Desafio da Saude MVTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E330F425333ABB00B7396A /* Desafio_da_Saude_MVTests.swift */,
+				F2E330F625333ABB00B7396A /* Info.plist */,
+			);
+			path = "Desafio da Saude MVTests";
+			sourceTree = "<group>";
+		};
+		F2E330FE25333ABC00B7396A /* Desafio da Saude MVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E330FF25333ABC00B7396A /* Desafio_da_Saude_MVUITests.swift */,
+				F2E3310125333ABC00B7396A /* Info.plist */,
+			);
+			path = "Desafio da Saude MVUITests";
+			sourceTree = "<group>";
+		};
+		F2E33110253341D300B7396A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F2E33111253341E700B7396A /* Cnes.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F2E33119253341F500B7396A /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2E330DE25333AA900B7396A /* ViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E330D625333AA800B7396A /* Desafio da Saude MV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E3310425333ABD00B7396A /* Build configuration list for PBXNativeTarget "Desafio da Saude MV" */;
+			buildPhases = (
+				F2E330D325333AA800B7396A /* Sources */,
+				F2E330D425333AA800B7396A /* Frameworks */,
+				F2E330D525333AA800B7396A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio da Saude MV";
+			productName = "Desafio da Saude MV";
+			productReference = F2E330D725333AA800B7396A /* Desafio da Saude MV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E330EF25333ABA00B7396A /* Desafio da Saude MVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E3310725333ABD00B7396A /* Build configuration list for PBXNativeTarget "Desafio da Saude MVTests" */;
+			buildPhases = (
+				F2E330EC25333ABA00B7396A /* Sources */,
+				F2E330ED25333ABA00B7396A /* Frameworks */,
+				F2E330EE25333ABA00B7396A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E330F225333ABB00B7396A /* PBXTargetDependency */,
+			);
+			name = "Desafio da Saude MVTests";
+			productName = "Desafio da Saude MVTests";
+			productReference = F2E330F025333ABB00B7396A /* Desafio da Saude MVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2E330FA25333ABB00B7396A /* Desafio da Saude MVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E3310A25333ABD00B7396A /* Build configuration list for PBXNativeTarget "Desafio da Saude MVUITests" */;
+			buildPhases = (
+				F2E330F725333ABB00B7396A /* Sources */,
+				F2E330F825333ABB00B7396A /* Frameworks */,
+				F2E330F925333ABB00B7396A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E330FD25333ABC00B7396A /* PBXTargetDependency */,
+			);
+			name = "Desafio da Saude MVUITests";
+			productName = "Desafio da Saude MVUITests";
+			productReference = F2E330FB25333ABC00B7396A /* Desafio da Saude MVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E330CF25333AA800B7396A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F2E330D625333AA800B7396A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F2E330EF25333ABA00B7396A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F2E330D625333AA800B7396A;
+					};
+					F2E330FA25333ABB00B7396A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F2E330D625333AA800B7396A;
+					};
+				};
+			};
+			buildConfigurationList = F2E330D225333AA800B7396A /* Build configuration list for PBXProject "Desafio da Saude MV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E330CE25333AA800B7396A;
+			productRefGroup = F2E330D825333AA800B7396A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E330D625333AA800B7396A /* Desafio da Saude MV */,
+				F2E330EF25333ABA00B7396A /* Desafio da Saude MVTests */,
+				F2E330FA25333ABB00B7396A /* Desafio da Saude MVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E330D525333AA800B7396A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E330EA25333AB700B7396A /* LaunchScreen.storyboard in Resources */,
+				F2E330E725333AB700B7396A /* Assets.xcassets in Resources */,
+				F2E330E225333AA900B7396A /* Main.storyboard in Resources */,
+				F23A790F253552FE000257D0 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E330EE25333ABA00B7396A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E330F925333ABB00B7396A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E330D325333AA800B7396A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E33112253341E700B7396A /* Cnes.swift in Sources */,
+				F2E330E525333AA900B7396A /* Desafio_da_Saude_MV.xcdatamodeld in Sources */,
+				F2E330DF25333AA900B7396A /* ViewController.swift in Sources */,
+				F2E330DB25333AA900B7396A /* AppDelegate.swift in Sources */,
+				F2E330DD25333AA900B7396A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E330EC25333ABA00B7396A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E330F525333ABB00B7396A /* Desafio_da_Saude_MVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E330F725333ABB00B7396A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E3310025333ABC00B7396A /* Desafio_da_Saude_MVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E330F225333ABB00B7396A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E330D625333AA800B7396A /* Desafio da Saude MV */;
+			targetProxy = F2E330F125333ABB00B7396A /* PBXContainerItemProxy */;
+		};
+		F2E330FD25333ABC00B7396A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E330D625333AA800B7396A /* Desafio da Saude MV */;
+			targetProxy = F2E330FC25333ABC00B7396A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2E330E025333AA900B7396A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E330E125333AA900B7396A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2E330E825333AB700B7396A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E330E925333AB700B7396A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E3310225333ABC00B7396A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2E3310325333ABD00B7396A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E3310525333ABD00B7396A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8K2P23SE;
+				INFOPLIST_FILE = "Desafio da Saude MV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.app.desafio.mv.Desafio-da-Saude-MV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2E3310625333ABD00B7396A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A8K2P23SE;
+				INFOPLIST_FILE = "Desafio da Saude MV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.app.desafio.mv.Desafio-da-Saude-MV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2E3310825333ABD00B7396A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Desafio da Saude MVTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.app.desafio.mv.Desafio-da-Saude-MVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio da Saude MV.app/Desafio da Saude MV";
+			};
+			name = Debug;
+		};
+		F2E3310925333ABD00B7396A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Desafio da Saude MVTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.app.desafio.mv.Desafio-da-Saude-MVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio da Saude MV.app/Desafio da Saude MV";
+			};
+			name = Release;
+		};
+		F2E3310B25333ABD00B7396A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Desafio da Saude MVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.app.desafio.mv.Desafio-da-Saude-MVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio da Saude MV";
+			};
+			name = Debug;
+		};
+		F2E3310C25333ABD00B7396A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Desafio da Saude MVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.app.desafio.mv.Desafio-da-Saude-MVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio da Saude MV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E330D225333AA800B7396A /* Build configuration list for PBXProject "Desafio da Saude MV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E3310225333ABC00B7396A /* Debug */,
+				F2E3310325333ABD00B7396A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E3310425333ABD00B7396A /* Build configuration list for PBXNativeTarget "Desafio da Saude MV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E3310525333ABD00B7396A /* Debug */,
+				F2E3310625333ABD00B7396A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E3310725333ABD00B7396A /* Build configuration list for PBXNativeTarget "Desafio da Saude MVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E3310825333ABD00B7396A /* Debug */,
+				F2E3310925333ABD00B7396A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E3310A25333ABD00B7396A /* Build configuration list for PBXNativeTarget "Desafio da Saude MVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E3310B25333ABD00B7396A /* Debug */,
+				F2E3310C25333ABD00B7396A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2E330E325333AA900B7396A /* Desafio_da_Saude_MV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2E330E425333AA900B7396A /* Desafio_da_Saude_MV.xcdatamodel */,
+			);
+			currentVersion = F2E330E425333AA900B7396A /* Desafio_da_Saude_MV.xcdatamodel */;
+			path = Desafio_da_Saude_MV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2E330CF25333AA800B7396A /* Project object */;
+}
