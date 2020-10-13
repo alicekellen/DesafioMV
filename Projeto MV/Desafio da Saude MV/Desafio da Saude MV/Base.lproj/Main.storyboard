@@ -269,9 +269,9 @@
                     <connections>
                         <outlet property="cepField" destination="Tr9-Ic-Jh5" id="A3y-eX-sUL"/>
                         <outlet property="cityField" destination="Y3U-Ml-NtF" id="pn8-xf-dKh"/>
-                        <outlet property="cnesTV" destination="Urt-b3-7z1" id="X2o-xT-eeC"/>
+                        <outlet property="cnesTableView" destination="Urt-b3-7z1" id="X2o-xT-eeC"/>
                         <outlet property="districtField" destination="oBj-N5-hxm" id="jKT-Vq-abl"/>
-                        <outlet property="filterSC" destination="jYi-iG-XHD" id="0g3-0w-P4I"/>
+                        <outlet property="filterSegmentControl" destination="jYi-iG-XHD" id="0g3-0w-P4I"/>
                         <outlet property="heightViewForm" destination="F3q-Zp-qfy" id="Jog-BY-W9W"/>
                         <outlet property="managementField" destination="fXZ-S6-vZf" id="Xmj-FC-4Re"/>
                         <outlet property="nameField" destination="ZxN-RF-v2z" id="V8I-dB-UAf"/>
